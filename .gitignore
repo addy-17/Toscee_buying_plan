@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ML Models (large files)
+toscee_ai_mirror/models/
+
+# ChromaDB data
+toscee_ai_mirror/data/chromadb/
+
+# Embeddings
+toscee_ai_mirror/data/product_embeddings/
+
+# Streamlit secrets
+.streamlit/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

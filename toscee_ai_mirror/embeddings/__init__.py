@@ -1,0 +1,1 @@
+# Toscee AI Personal Shopper — Embeddings Pipeline
