@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 # Paths
-EXCEL_PATH = r"C:\Users\adity\Downloads\invitemlist_20260622144242.xlsx"
+EXCEL_PATH = Path(__file__).parent.parent.parent / "Inventory.xlsx"
 CATALOG_PATH = Path(__file__).parent.parent / "data" / "brand_catalogs.json"
 # Fallback to original location
 if not CATALOG_PATH.exists():
