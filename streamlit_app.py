@@ -6,7 +6,7 @@ Uses inventory_with_images.json as the product catalog (766 items with images).
 """
 import streamlit as st
 import pandas as pd
-from utils import (
+from buying_plan_utils import (
     load_catalog, get_brand_list,
     load_inventory, get_inventory_brands, get_inventory_departments,
     get_inventory_products, get_inventory_summary,
