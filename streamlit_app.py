@@ -52,25 +52,19 @@ if "inventory_df" not in st.session_state:
     except:
         st.session_state.inventory_df = None
 if "image_map" not in st.session_state:
-    # Load image mapping from ocr_matched_output_v2
+    # Load image mapping from pre-generated JSON
     st.session_state.image_map = {}
-    mapped_folder = "ocr_matched_output_v2"
-    if os.path.exists(mapped_folder):
-        for brand_folder in os.listdir(mapped_folder):
-            brand_path = os.path.join(mapped_folder, brand_folder)
-            if os.path.isdir(brand_path):
-                for file in os.listdir(brand_path):
-                    if file.endswith("_Mapped.xlsx"):
-                        try:
-                            df = pd.read_excel(os.path.join(brand_path, file))
-                            if "Item Code " in df.columns and "Matched_Image" in df.columns:
-                                for _, row in df.iterrows():
-                                    item_code = str(row["Item Code "]).strip()
-                                    matched_img = row["Matched_Image"]
-                                    if pd.notna(matched_img) and str(matched_img) not in ["", "nan", "NaN"]:
-                                        st.session_state.image_map[item_code] = str(matched_img)
-                        except:
-                            pass
+    mapping_file = "image_mappings.json"
+    if os.path.exists(mapping_file):
+        try:
+            with open(mapping_file, "r", encoding="utf-8") as f:
+                mappings = json.load(f)
+                for item_code, data in mappings.items():
+                    if "image_path" in data:
+                        st.session_state.image_map[item_code] = data["image_path"]
+            print(f"Loaded {len(st.session_state.image_map)} image mappings from {mapping_file}")
+        except Exception as e:
+            print(f"Error loading image mappings: {e}")
 if "selected_items" not in st.session_state:
     st.session_state.selected_items = []
 if "scrape_results" not in st.session_state:
@@ -103,33 +97,12 @@ def get_item_from_inventory(item_code):
 def resolve_image_path(product):
     """Resolve image path from product data."""
     item_code = product.get("item_code", "")
-    brand = product.get("brand", "")
     
-    # First try to get image from the mapping
+    # First try to get image from the pre-loaded mapping
     if item_code and item_code in st.session_state.get("image_map", {}):
-        mapped_image = st.session_state.image_map[item_code]
-        
-        # Try to find the mapped image in extracted_images
-        if brand:
-            # Direct brand folder
-            path = f"extracted_images/{brand}/{mapped_image}"
-            if os.path.exists(path):
-                return path
-            
-            # Try with x Toscee variations
-            for suffix in ["", " x Toscee .xlsx", " x Toscee.xlsx"]:
-                path = f"extracted_images/{brand}{suffix}/{mapped_image}"
-                if os.path.exists(path):
-                    return path
-        
-        # Search all brand folders for the mapped image
-        if os.path.exists("extracted_images"):
-            for folder in os.listdir("extracted_images"):
-                folder_path = os.path.join("extracted_images", folder)
-                if os.path.isdir(folder_path):
-                    path = os.path.join(folder_path, mapped_image)
-                    if os.path.exists(path):
-                        return path
+        image_path = st.session_state.image_map[item_code]
+        if os.path.exists(image_path):
+            return image_path
     
     # Fallback to original image_file from product
     image_file = product.get("image_file", "")
