@@ -1,0 +1,38 @@
+[
+  {
+    "image_index": 1,
+    "filename": "product_1.png",
+    "ocr_text": "> |\nFresh out of Drama\nRs. 870.00",
+    "price": 870
+  },
+  {
+    "image_index": 2,
+    "filename": "product_2.png",
+    "ocr_text": "Take my flower\nRs. 870.00",
+    "price": 870
+  },
+  {
+    "image_index": 3,
+    "filename": "product_3.png",
+    "ocr_text": "ve a =&\nES Be ig)\nNamaste but not today\nRs. 870.00",
+    "price": 870
+  },
+  {
+    "image_index": 4,
+    "filename": "product_4.png",
+    "ocr_text": "Posoll\nOops | did it again\nRs. 870.00",
+    "price": 870
+  },
+  {
+    "image_index": 5,
+    "filename": "product_5.png",
+    "ocr_text": "ee\nee 44 |\n\u00a9 |\nB |\nHotter than closure\nRs. 870.00",
+    "price": 870
+  },
+  {
+    "image_index": 6,
+    "filename": "product_6.png",
+    "ocr_text": "FORTHE\n\nRose and Reckless\n\nRs. 870.00",
+    "price": 870
+  }
+]

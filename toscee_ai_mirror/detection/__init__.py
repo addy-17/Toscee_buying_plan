@@ -1,1 +1,0 @@
-# Toscee AI Personal Shopper — Detection Pipeline
