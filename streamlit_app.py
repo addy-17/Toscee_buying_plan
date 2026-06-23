@@ -51,6 +51,26 @@ if "inventory_df" not in st.session_state:
         st.session_state.inventory_df.columns = [c.strip() for c in st.session_state.inventory_df.columns]
     except:
         st.session_state.inventory_df = None
+if "image_map" not in st.session_state:
+    # Load image mapping from ocr_matched_output_v2
+    st.session_state.image_map = {}
+    mapped_folder = "ocr_matched_output_v2"
+    if os.path.exists(mapped_folder):
+        for brand_folder in os.listdir(mapped_folder):
+            brand_path = os.path.join(mapped_folder, brand_folder)
+            if os.path.isdir(brand_path):
+                for file in os.listdir(brand_path):
+                    if file.endswith("_Mapped.xlsx"):
+                        try:
+                            df = pd.read_excel(os.path.join(brand_path, file))
+                            if "Item Code " in df.columns and "Matched_Image" in df.columns:
+                                for _, row in df.iterrows():
+                                    item_code = str(row["Item Code "]).strip()
+                                    matched_img = row["Matched_Image"]
+                                    if pd.notna(matched_img) and str(matched_img) not in ["", "nan", "NaN"]:
+                                        st.session_state.image_map[item_code] = str(matched_img)
+                        except:
+                            pass
 if "selected_items" not in st.session_state:
     st.session_state.selected_items = []
 if "scrape_results" not in st.session_state:
@@ -82,45 +102,50 @@ def get_item_from_inventory(item_code):
 
 def resolve_image_path(product):
     """Resolve image path from product data."""
+    item_code = product.get("item_code", "")
+    brand = product.get("brand", "")
+    
+    # First try to get image from the mapping
+    if item_code and item_code in st.session_state.get("image_map", {}):
+        mapped_image = st.session_state.image_map[item_code]
+        
+        # Try to find the mapped image in extracted_images
+        if brand:
+            # Direct brand folder
+            path = f"extracted_images/{brand}/{mapped_image}"
+            if os.path.exists(path):
+                return path
+            
+            # Try with x Toscee variations
+            for suffix in ["", " x Toscee .xlsx", " x Toscee.xlsx"]:
+                path = f"extracted_images/{brand}{suffix}/{mapped_image}"
+                if os.path.exists(path):
+                    return path
+        
+        # Search all brand folders for the mapped image
+        if os.path.exists("extracted_images"):
+            for folder in os.listdir("extracted_images"):
+                folder_path = os.path.join("extracted_images", folder)
+                if os.path.isdir(folder_path):
+                    path = os.path.join(folder_path, mapped_image)
+                    if os.path.exists(path):
+                        return path
+    
+    # Fallback to original image_file from product
     image_file = product.get("image_file", "")
     if not image_file or image_file in ["", "nan", "NaN"]:
         return None
     
-    brand = product.get("brand", "")
-    item_code = product.get("item_code", "")
-    
-    # Build possible paths - prioritize ocr_matched_output_v2
+    # Build possible paths
     possible_paths = []
     
-    # Try OCR matched output v2 first (user specified this folder)
-    if brand:
-        possible_paths.append(f"ocr_matched_output_v2/{brand}/{image_file}")
-    
-    # Try extracted_images with brand name variations
     if brand:
         possible_paths.append(f"extracted_images/{brand}/{image_file}")
         possible_paths.append(f"extracted_images/{brand} x Toscee .xlsx/{image_file}")
         possible_paths.append(f"extracted_images/{brand} x Toscee.xlsx/{image_file}")
         possible_paths.append(f"extracted_images/{brand.upper()} x TOSCEE.xlsx/{image_file}")
-    
-    # Try OCR extracted data
-    if brand:
         possible_paths.append(f"ocr_extracted_data/{brand}_images/{image_file}")
-    
-    # Try Images folder
-    if brand:
         possible_paths.append(f"Images/{brand} x Toscee.xlsx/{image_file}")
-    
-    # Try item code based search in all brand folders
-    if item_code:
-        for base_path in ["ocr_matched_output_v2", "extracted_images"]:
-            if os.path.exists(base_path):
-                for folder in os.listdir(base_path):
-                    folder_path = os.path.join(base_path, folder)
-                    if os.path.isdir(folder_path):
-                        possible_paths.append(f"{folder_path}/{image_file}")
-                        possible_paths.append(f"{folder_path}/{item_code}.png")
-                        possible_paths.append(f"{folder_path}/{item_code}.jpg")
     
     # Check each path
     for path in possible_paths:
