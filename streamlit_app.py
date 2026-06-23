@@ -65,29 +65,70 @@ def get_category_for_product(product):
 def render_product_card(product, idx):
     """Render a product selection card."""
     with st.container():
-        col1, col2, col3, col4 = st.columns([3, 2, 2, 2])
-        with col1:
+        # Image column - wider and more prominent
+        col_img, col_info, col_qty = st.columns([2, 3, 1])
+        
+        with col_img:
+            # Try multiple image sources
+            image_displayed = False
+            
+            # First try image_file from local extracted_images folder
+            image_file = product.get("image_file", "")
+            if image_file and image_file not in ["", "nan", "NaN"]:
+                brand = product.get("brand", "")
+                # Try different possible paths
+                possible_paths = [
+                    f"extracted_images/{brand}/{image_file}",
+                    f"Images/{brand} x Toscee.xlsx/{image_file}",
+                    f"ocr_extracted_data/{brand}_images/{image_file}",
+                ]
+                for img_path in possible_paths:
+                    try:
+                        st.image(img_path, width=250, use_container_width=True)
+                        image_displayed = True
+                        break
+                    except:
+                        continue
+            
+            # Fallback to image_url if available
+            if not image_displayed and product.get("image_url"):
+                try:
+                    st.image(product["image_url"], width=250, use_container_width=True)
+                    image_displayed = True
+                except:
+                    pass
+            
+            # Show placeholder if no image
+            if not image_displayed:
+                st.markdown(
+                    '<div style="width:250px;height:200px;background:#f0f0f0;'
+                    'display:flex;align-items:center;justify-content:center;'
+                    'border-radius:8px;color:#999;">No Image</div>',
+                    unsafe_allow_html=True
+                )
+        
+        with col_info:
             st.write(f"**{product.get('product_name', 'N/A')}**")
-            if product.get("image_url"):
-                st.image(product["image_url"], width=120)
-        with col2:
-            st.write(f"Brand: {product.get('brand', 'N/A')}")
-            st.write(f"Dept: {product.get('department', 'N/A')}")
-        with col3:
+            st.write(f"**Brand:** {product.get('brand', 'N/A')}")
+            st.write(f"**Dept:** {product.get('department', 'N/A')}")
             mrp = product.get("mrp", "N/A")
-            st.write(f"MRP: {mrp}")
+            st.write(f"**MRP:** ₹{mrp}" if mrp != "N/A" else f"**MRP:** {mrp}")
             subcat = get_category_for_product(product)
-            st.write(f"Category: {subcat}")
-        with col4:
+            st.write(f"**Category:** {subcat}")
+            if image_file and image_file not in ["", "nan", "NaN"]:
+                st.caption(f"📁 {image_file}")
+        
+        with col_qty:
             qty = st.number_input(
                 "Qty", min_value=0, max_value=100, value=0,
                 key=f"qty_{idx}_{product.get('product_name', '')[:20]}"
             )
             product["quantity"] = qty
             if qty > 0:
-                if st.button("Add", key=f"add_{idx}"):
+                if st.button("➕ Add", key=f"add_{idx}", type="primary"):
                     st.session_state.selected_items.append(product.copy())
                     st.success(f"Added {qty} x {product.get('product_name', '')[:30]}")
+        
         st.divider()
 
 # --- Main App ---
