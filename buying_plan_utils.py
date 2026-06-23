@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
+from io import BytesIO
 
 # --- File Paths ---
 _APP_DIR = Path(__file__).parent
@@ -19,6 +20,7 @@ CATALOG_FILE_LOCAL = _APP_DIR / "brand_catalogs.json"
 if not CATALOG_FILE.exists() and CATALOG_FILE_LOCAL.exists():
     CATALOG_FILE = CATALOG_FILE_LOCAL
 INVENTORY_JSON = _APP_DIR / "inventory_with_images.json"
+BUYING_PLAN_EXCEL = _APP_DIR / "Toscee_buying_plan.xlsx"
 
 # --- Category to Subcategory Mapping (kept for scraped data) ---
 CATEGORY_MAP = {
@@ -41,10 +43,17 @@ HEADERS_SCRAPE = {
     "Accept-Language": "en-US,en;q=0.5",
 }
 
-# --- Inventory Data Loading ---
-
+# --- Import the new loader ---
 def load_inventory():
-    """Load inventory_with_images.json as the main product catalog."""
+    """Load inventory from Toscee_buying_plan.xlsx by default."""
+    try:
+        from load_buying_plan_excel import load_buying_plan_excel as _load_new
+        if BUYING_PLAN_EXCEL.exists():
+            return _load_new(str(BUYING_PLAN_EXCEL))
+    except Exception:
+        pass
+    
+    # Fallback: load inventory_with_images.json
     inventory_path = Path(INVENTORY_JSON)
     if not inventory_path.exists():
         alt_paths = [
@@ -60,6 +69,7 @@ def load_inventory():
             return json.load(f)
     return {"total_inventory": 0, "products": []}
 
+
 def get_inventory_brands(inventory_data):
     """Return sorted list of unique brand names from inventory."""
     brands = set()
@@ -69,26 +79,23 @@ def get_inventory_brands(inventory_data):
             brands.add(b)
     return sorted(brands)
 
+
 def get_inventory_departments(inventory_data, brand_name):
-    """Return sorted list of departments/sections for a given brand."""
-    depts = set()
-    for item in inventory_data.get("products", []):
-        b = (item.get("brand") or "").strip()
-        if b.lower() == brand_name.lower():
-            d = item.get("department", "")
-            if d:
-                depts.add(d)
-    return sorted(depts)
+    """Return sorted list of categories (Groups) for a given brand."""
+    from load_buying_plan_excel import get_categories
+    return get_categories(inventory_data, brand_name)
+
 
 def get_inventory_products(inventory_data, brand_name, department=None):
-    """Get products for a brand, optionally filtered by department."""
+    """Get products for a brand, optionally filtered by category/department."""
     products = []
     for item in inventory_data.get("products", []):
         b = (item.get("brand") or "").strip()
         if b.lower() == brand_name.lower():
-            if department is None or (item.get("department", "") or "").lower() == department.lower():
+            if department is None or (item.get("category") or "").lower() == department.lower():
                 products.append(item)
     return products
+
 
 def get_inventory_summary(inventory_data, brand_name):
     """Get summary info for a brand."""
@@ -100,6 +107,7 @@ def get_inventory_summary(inventory_data, brand_name):
         "departments": depts,
     }
 
+
 # --- Legacy Catalog Loading (for scraped brands) ---
 
 def load_catalog():
@@ -108,14 +116,17 @@ def load_catalog():
             return json.load(f)
     return {"brands": [], "total_brands_with_data": 0, "total_products_scraped": 0}
 
+
 def save_catalog(catalog):
     catalog["scrape_date"] = datetime.now().strftime("%Y-%m-%d")
     catalog["scrape_timestamp"] = datetime.now().isoformat()
     with open(CATALOG_FILE, "w", encoding="utf-8") as f:
         json.dump(catalog, f, indent=2, ensure_ascii=False)
 
+
 def get_brand_list(catalog):
     return sorted(set(b["brand_name"] for b in catalog.get("brands", [])))
+
 
 # --- Product Matching (legacy) ---
 
@@ -123,11 +134,13 @@ def matches_subcategory(product, pattern):
     name = (product.get("product_name") or "").lower()
     return bool(re.search(pattern, name))
 
+
 def matches_description(product, pattern):
     desc = (product.get("description") or "").lower()
     tags = product.get("tags", [])
     tags_str = " ".join(tags).lower() if isinstance(tags, list) else str(tags or "").lower()
     return bool(re.search(pattern, desc + " " + tags_str))
+
 
 def product_matches_subcategory(product, subcat_name):
     pattern = ALL_SUBCATEGORIES.get(subcat_name)
@@ -140,6 +153,7 @@ def product_matches_subcategory(product, subcat_name):
         return True
     return False
 
+
 def get_subcategory_for_product(product):
     text = ((product.get("product_name") or "") + " " + (product.get("category") or "") + " " + (product.get("description") or "")).lower()
     tags = product.get("tags", [])
@@ -149,11 +163,13 @@ def get_subcategory_for_product(product):
             return subcat_name
     return None
 
+
 def get_category_for_subcategory(subcat_name):
     for cat_name, subs in CATEGORY_MAP.items():
         if subcat_name in subs:
             return cat_name
     return "Other"
+
 
 # --- Scraping (kept for Add Brand tab) ---
 
@@ -164,6 +180,7 @@ def fetch_url(url, timeout=15):
         return resp
     except Exception:
         return None
+
 
 def try_shopify_json(base_url):
     endpoints = ["/products.json?limit=250", "/collections/all/products.json?limit=250"]
@@ -179,6 +196,7 @@ def try_shopify_json(base_url):
             except:
                 continue
     return None
+
 
 def parse_shopify_products(products, brand_url):
     result = []
@@ -214,6 +232,7 @@ def parse_shopify_products(products, brand_url):
             "product_url": product_url, "image_url": img_url or "",
         })
     return result
+
 
 def scrape_html_products(url):
     resp = fetch_url(url)
@@ -275,6 +294,7 @@ def scrape_html_products(url):
             })
     return products
 
+
 def scrape_brand_by_url(url, brand_name=None):
     if not url or not url.startswith("http"):
         url = "https://" + url
@@ -301,21 +321,33 @@ def scrape_brand_by_url(url, brand_name=None):
             return result
     return result
 
+
 # --- Excel Generation ---
 
 def generate_buying_plan_excel(selected_items, total_budget):
     """
     Generate Excel from selected inventory items.
-    selected_items: list of dicts from inventory_with_images.json, plus "quantity" key.
+    selected_items: list of dicts from Toscee_buying_plan.xlsx, plus "quantity" key.
+    
+    Output columns matching the required format:
+    Brand Name, Group, Sub Group, Product, Article, Product Title,
+    Style Code /Sku, Color, Size, Barcode No, MRP, HSN Code, GST%,
+    MATERIAL, Gender, Season, Quantity, PO RATE, UOM, MARGIN %, Net Price
     """
     wb = Workbook()
     
     header_font = Font(name="Calibri", bold=True, color="FFFFFF", size=11)
     header_fill = PatternFill(start_color="2D3748", end_color="2D3748", fill_type="solid")
-    thin_border = Border(left=Side(style="thin", color="E2E8F0"), right=Side(style="thin", color="E2E8F0"), top=Side(style="thin", color="E2E8F0"), bottom=Side(style="thin", color="E2E8F0"))
+    thin_border = Border(
+        left=Side(style="thin", color="E2E8F0"),
+        right=Side(style="thin", color="E2E8F0"),
+        top=Side(style="thin", color="E2E8F0"),
+        bottom=Side(style="thin", color="E2E8F0")
+    )
     data_font = Font(name="Calibri", size=10)
     summary_fill = PatternFill(start_color="48BB78", end_color="48BB78", fill_type="solid")
     
+    # Columns matching the user's reference output
     headers_list = [
         "Brand Name", "Group", "Sub Group", "Product", "Article",
         "Product Title", "Style Code /Sku", "Color", "Size", "Barcode No",
@@ -334,52 +366,64 @@ def generate_buying_plan_excel(selected_items, total_budget):
         for col, w in enumerate(widths, 1):
             ws.column_dimensions[get_column_letter(col)].width = w
     
-    def safe_float(val, default=0):
-        try: return float(val or 0)
-        except: return default
+    def safe_float(val, default=None):
+        if val is None:
+            return default
+        try:
+            v = float(val)
+            return v
+        except:
+            return default
     
     def get_field(item, field, default=""):
         val = item.get(field, default)
-        return val if val is not None else default
+        if val is None:
+            return default
+        return val if val not in [None, "nan", "NaN"] else default
 
     def write_data_rows(ws, items):
         row = 2
         grand_qty = 0
+        total_mrp = 0
         for item in items:
             qty = item.get("quantity", 0) or 0
             grand_qty += qty
             
-            brand_name = get_field(item, "matched_brand", "")
-            article_name = get_field(item, "article_name", "")
-            product_title = get_field(item, "item_name", "")
-            style_code = get_field(item, "item_code", "")
-            color = get_field(item, "category_3", "")
+            brand_name = get_field(item, "brand", "")
+            category = get_field(item, "category", "")
+            sub_category = get_field(item, "sub_category", "")
+            product_type = get_field(item, "product", "")
+            # Article = derived from category-sub_category-product
+            article = f"{category}-{sub_category}-{product_type}" if sub_category else category
+            
+            product_title = get_field(item, "product_title", "")
+            style_code = get_field(item, "style_code", "")
+            color = get_field(item, "color", "")
+            size = get_field(item, "size", "")
             barcode = get_field(item, "barcode", "")
-            mrp = safe_float(get_field(item, "mrp", 0))
             
-            article_parts = article_name.split("-") if article_name else []
-            division = get_field(item, "section", article_parts[0] if len(article_parts) > 0 else "")
-            section = get_field(item, "division", article_parts[1] if len(article_parts) > 1 else "")
-            department = get_field(item, "department", article_parts[2] if len(article_parts) > 2 else "")
-            
-            article_code = get_field(item, "item_code", "")
-            hsn = ""
+            mrp = safe_float(get_field(item, "mrp"))
+            hsn = get_field(item, "hsn_code", "")
+            gst = get_field(item, "gst")
             material = get_field(item, "material", "")
-            gender = "Women"
-            season = "SS25"
-            uom = "pcs"
-            margin_pct = 40.0
-            po_rate = round(mrp * 0.6, 2)
-            net_price = round(po_rate / (1 - margin_pct / 100), 2) if margin_pct > 0 else mrp
+            gender = get_field(item, "gender", "")
+            season = get_field(item, "season", "")
+            uom = get_field(item, "uom", "pcs")
+            margin_pct = get_field(item, "margin_pct")
+            net_price = safe_float(get_field(item, "net_price"))
             
-            if "material" not in item:
-                material = "Metal" if "jewellery" in division.lower() else "Leather" if "accessories" in division.lower() else "Fabric"
+            # PO RATE = MRP * 0.6 (legacy calculation, applied only if mrp exists)
+            po_rate = round(mrp * 0.6, 2) if mrp is not None else None
             
             row_data = [
-                brand_name, section, division, department, article_code,
-                product_title, style_code, color, "", barcode,
-                round(mrp, 2), hsn, "", material, gender, season,
-                qty, round(po_rate, 2), uom, margin_pct, round(net_price, 2),
+                brand_name, category, sub_category, product_type, article,
+                product_title, style_code, color, size, barcode,
+                round(mrp, 2) if mrp is not None else None,
+                hsn, gst if gst is not None else None,
+                material, gender, season,
+                qty, round(po_rate, 2) if po_rate is not None else None,
+                uom, margin_pct if margin_pct is not None else None,
+                round(net_price, 2) if net_price is not None else None,
             ]
             
             for col, val in enumerate(row_data, 1):
@@ -388,6 +432,8 @@ def generate_buying_plan_excel(selected_items, total_budget):
                 cell.border = thin_border
                 cell.alignment = Alignment(vertical="center", wrap_text=(col == 6))
             
+            if mrp is not None:
+                total_mrp += mrp * qty
             row += 1
         return row, grand_qty
     
@@ -400,13 +446,15 @@ def generate_buying_plan_excel(selected_items, total_budget):
         total_cell.alignment = Alignment(horizontal="center")
         return row
     
+    # Group items by brand for per-brand sheets
     brand_groups = {}
     for item in selected_items:
-        brand = get_field(item, "matched_brand", "Unknown")
+        brand = get_field(item, "brand", "Unknown")
         if brand not in brand_groups:
             brand_groups[brand] = []
         brand_groups[brand].append(item)
     
+    # Main sheet
     ws_main = wb.active
     ws_main.title = "Buying Plan"
     write_headers(ws_main)
@@ -415,6 +463,7 @@ def generate_buying_plan_excel(selected_items, total_budget):
     ws_main.freeze_panes = "A2"
     ws_main.auto_filter.ref = f"A1:U{last_row + 1}"
     
+    # Per-brand sheets
     for brand_name in sorted(brand_groups.keys()):
         ws = wb.create_sheet(title=brand_name[:31])
         write_headers(ws)
@@ -423,7 +472,6 @@ def generate_buying_plan_excel(selected_items, total_budget):
         ws.freeze_panes = "A2"
         ws.auto_filter.ref = f"A1:U{last_row + 1}"
     
-    from io import BytesIO
     output = BytesIO()
     wb.save(output)
     output.seek(0)

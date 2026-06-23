@@ -1,11 +1,10 @@
 """
 Toscee Buying Plan App - Streamlit Frontend
 =============================================
-3
-Main app for browsing inventory, selecting products, and generating buying plans.
+Browse inventory from Toscee buying plan Excel, select products,
+and generate buying plan Excel with images.
 """
 import streamlit as st
-import json
 import io
 import os
 import sys
@@ -14,11 +13,11 @@ import pandas as pd
 # Add parent directory to path for imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from buying_plan_utils import (
-    load_inventory, get_inventory_brands, get_inventory_departments,
+    load_inventory, get_inventory_brands,
     get_inventory_products, get_inventory_summary,
-    generate_buying_plan_excel, scrape_brand_by_url,
-    CATEGORY_MAP, ALL_SUBCATEGORIES
+    generate_buying_plan_excel, scrape_brand_by_url
 )
+from load_buying_plan_excel import get_categories, get_sub_categories
 
 # --- Page Config ---
 st.set_page_config(
@@ -39,143 +38,54 @@ st.markdown("""
     .stButton>button {
         width: 100%;
     }
+    .product-card {
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    .image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+        background: #f8f9fa;
+        border-radius: 8px;
+        overflow: hidden;
+    }
 </style>
 """, unsafe_allow_html=True)
 
 # --- Session State ---
 if "inventory_data" not in st.session_state:
     st.session_state.inventory_data = load_inventory()
-if "inventory_df" not in st.session_state:
-    try:
-        st.session_state.inventory_df = pd.read_excel("Inventory.xlsx")
-        st.session_state.inventory_df.columns = [c.strip() for c in st.session_state.inventory_df.columns]
-    except:
-        st.session_state.inventory_df = None
-if "image_map" not in st.session_state:
-    # Load image mapping from pre-generated JSON
-    st.session_state.image_map = {}
-    mapping_file = "image_mappings.json"
-    print(f"Looking for image mapping file: {mapping_file}")
-    print(f"Current directory: {os.getcwd()}")
-    print(f"File exists: {os.path.exists(mapping_file)}")
-    if os.path.exists(mapping_file):
-        try:
-            with open(mapping_file, "r", encoding="utf-8") as f:
-                mappings = json.load(f)
-                for item_code, data in mappings.items():
-                    if "image_path" in data:
-                        st.session_state.image_map[item_code] = data["image_path"]
-            print(f"✓ Loaded {len(st.session_state.image_map)} image mappings from {mapping_file}")
-            # Show a few samples
-            for i, (k, v) in enumerate(list(st.session_state.image_map.items())[:3]):
-                print(f"  Sample: {k} -> {v}")
-        except Exception as e:
-            print(f"Error loading image mappings: {e}")
-            import traceback
-            traceback.print_exc()
+    data = st.session_state.inventory_data
+    st.session_state.total_products = data.get("total_inventory", 0)
+    st.session_state.products = data.get("products", [])
+    print(f"Loaded {st.session_state.total_products} products from Excel")
+
 if "selected_items" not in st.session_state:
     st.session_state.selected_items = []
 if "scrape_results" not in st.session_state:
     st.session_state.scrape_results = None
 
 # --- Helper Functions ---
-def get_category_for_product(product):
-    """Determine category from product data."""
-    text = ((product.get("product_name") or "") + " " +
-            (product.get("category") or "") + " " +
-            (product.get("description") or "")).lower()
-    tags = product.get("tags", [])
-    text += " " + (" ".join(tags).lower() if isinstance(tags, list) else str(tags or "").lower())
-    for subcat_name, pattern in ALL_SUBCATEGORIES.items():
-        if pattern and __import__('re').search(pattern, text):
-            return subcat_name
-    return "Other"
-
-def get_item_from_inventory(item_code):
-    """Get item details from Inventory.xlsx by item code."""
-    df = st.session_state.get("inventory_df")
-    if df is None or "Item Code " not in df.columns:
-        return None
-    item_code_clean = str(item_code).strip()
-    match = df[df["Item Code "].astype(str).str.strip() == item_code_clean]
-    if not match.empty:
-        return match.iloc[0].to_dict()
-    return None
-
-def resolve_image_path(product):
-    """Resolve image path from product data."""
-    item_code = product.get("item_code", "")
-    brand = product.get("brand", "")
-    
-    # Debug logging
-    if item_code:
-        has_mapping = item_code in st.session_state.get("image_map", {})
-        if not has_mapping:
-            # Only log first few missing mappings to avoid spam
-            if not hasattr(resolve_image_path, 'missing_count'):
-                resolve_image_path.missing_count = 0
-            if resolve_image_path.missing_count < 3:
-                print(f"DEBUG: No mapping for item_code: {item_code} (brand: {brand})")
-                resolve_image_path.missing_count += 1
-    
-    # First try to get image from the pre-loaded mapping
-    if item_code and item_code in st.session_state.get("image_map", {}):
-        image_path = st.session_state.image_map[item_code]
-        if os.path.exists(image_path):
-            return image_path
-    
-    # Fallback to original image_file from product
-    image_file = product.get("image_file", "")
-    if not image_file or image_file in ["", "nan", "NaN"]:
-        return None
-    
-    # Build possible paths
-    possible_paths = []
-    
-    if brand:
-        possible_paths.append(f"extracted_images/{brand}/{image_file}")
-        possible_paths.append(f"extracted_images/{brand} x Toscee .xlsx/{image_file}")
-        possible_paths.append(f"extracted_images/{brand} x Toscee.xlsx/{image_file}")
-        possible_paths.append(f"extracted_images/{brand.upper()} x TOSCEE.xlsx/{image_file}")
-        possible_paths.append(f"ocr_extracted_data/{brand}_images/{image_file}")
-        possible_paths.append(f"Images/{brand} x Toscee.xlsx/{image_file}")
-    
-    # Check each path
-    for path in possible_paths:
-        if os.path.exists(path):
-            return path
-    
-    return None
-
 def render_product_card(product, idx):
-    """Render a product selection card."""
+    """Render a product selection card with image from URL and details."""
     with st.container():
-        # Image column - wider and more prominent
         col_img, col_info, col_qty = st.columns([2, 3, 1])
         
         with col_img:
-            # Try multiple image sources
+            image_url = product.get("image_url", "")
             image_displayed = False
-            image_file = product.get("image_file", "")
             
-            # Use new resolve_image_path function
-            img_path = resolve_image_path(product)
-            if img_path:
+            if image_url:
                 try:
-                    st.image(img_path, width=250, use_container_width=True)
+                    st.image(image_url, width=250, use_container_width=True)
                     image_displayed = True
-                except:
+                except Exception as e:
                     pass
             
-            # Fallback to image_url if available
-            if not image_displayed and product.get("image_url"):
-                try:
-                    st.image(product["image_url"], width=250, use_container_width=True)
-                    image_displayed = True
-                except:
-                    pass
-            
-            # Show placeholder if no image
             if not image_displayed:
                 st.markdown(
                     '<div style="width:250px;height:200px;background:#f0f0f0;'
@@ -185,48 +95,43 @@ def render_product_card(product, idx):
                 )
         
         with col_info:
-            # Try to get better item name from Inventory.xlsx
-            item_code = product.get("item_code", "")
-            inv_item = get_item_from_inventory(item_code) if item_code else None
+            brand = product.get("brand", "N/A")
+            category = product.get("category", "")
+            sub_category = product.get("sub_category", "")
+            product_title = product.get("product_title", "N/A")
+            style_code = product.get("style_code", "")
+            color = product.get("color", "")
+            size = product.get("size", "")
+            mrp = product.get("mrp")
+            material = product.get("material", "")
+            gender = product.get("gender", "")
             
-            if inv_item:
-                # Use Inventory.xlsx data
-                item_name = inv_item.get("Item Name", "N/A")
-                brand = inv_item.get("Category 1", product.get("brand", "N/A"))
-                dept = inv_item.get("Department", product.get("department", "N/A"))
-                mrp = inv_item.get("MRP", product.get("mrp", "N/A"))
-                division = inv_item.get("Division", "")
-                section = inv_item.get("Section ", "")
-            else:
-                # Fallback to JSON data - use item_name not product_name
-                item_name = product.get("item_name", product.get("product_name", "N/A"))
-                brand = product.get("brand", "N/A")
-                dept = product.get("department", "N/A")
-                mrp = product.get("mrp", "N/A")
-                division = product.get("division", "")
-                section = product.get("section", "")
-            
-            st.write(f"**{item_name}**")
+            st.write(f"**{product_title}**")
             st.write(f"**Brand:** {brand}")
-            if division or section:
-                st.write(f"**Category:** {division} > {section}" if division else f"**Section:** {section}")
-            st.write(f"**Dept:** {dept}")
-            st.write(f"**MRP:** ₹{mrp}" if mrp != "N/A" else f"**MRP:** {mrp}")
-            subcat = get_category_for_product(product)
-            st.write(f"**Type:** {subcat}")
-            if image_file and image_file not in ["", "nan", "NaN"]:
-                st.caption(f"📁 {image_file}")
+            if category:
+                st.write(f"**Group:** {category}" + (f" > {sub_category}" if sub_category else ""))
+            st.write(f"**MRP:** ₹{mrp:,.2f}" if mrp else "**MRP:** N/A")
+            if style_code:
+                st.write(f"**SKU:** {style_code}")
+            if color:
+                st.write(f"**Color:** {color}")
+            if size:
+                st.write(f"**Size:** {size}")
+            if material:
+                st.write(f"**Material:** {material}")
+            if gender:
+                st.write(f"**Gender:** {gender}")
         
         with col_qty:
             qty = st.number_input(
                 "Qty", min_value=0, max_value=100, value=0,
-                key=f"qty_{idx}_{product.get('product_name', '')[:20]}"
+                key=f"qty_{idx}_{product.get('product_title', '')[:20]}"
             )
             product["quantity"] = qty
             if qty > 0:
-                if st.button("➕ Add", key=f"add_{idx}", type="primary"):
+                if st.button("➕ Add to Plan", key=f"add_{idx}", type="primary"):
                     st.session_state.selected_items.append(product.copy())
-                    st.success(f"Added {qty} x {product.get('product_name', '')[:30]}")
+                    st.success(f"Added {qty} x {product.get('product_title', '')[:30]}")
         
         st.divider()
 
@@ -239,13 +144,13 @@ tab1, tab2, tab3 = st.tabs(["📋 Inventory", "🌐 Scrape Brand", "📊 Buying 
 with tab1:
     st.header("Inventory Browser")
     inventory = st.session_state.inventory_data
-    total_products = inventory.get("total_inventory", 0)
-    products = inventory.get("products", [])
+    total_products = st.session_state.total_products
+    products = st.session_state.products
 
     st.write(f"**Total Products:** {total_products}")
 
     if not products:
-        st.warning("No inventory data found. Please ensure `inventory_with_images.json` exists.")
+        st.warning("No inventory data found. Ensure `Toscee_buying_plan.xlsx` exists in the app directory.")
     else:
         # Filters
         col1, col2, col3 = st.columns(3)
@@ -254,21 +159,35 @@ with tab1:
             selected_brand = st.selectbox("Filter by Brand", ["All"] + brands)
         with col2:
             if selected_brand != "All":
-                depts = get_inventory_departments(inventory, selected_brand)
-                selected_dept = st.selectbox("Filter by Department", ["All"] + depts)
+                cats = get_categories(inventory, selected_brand)
+                selected_cat = st.selectbox("Filter by Group", ["All"] + cats)
             else:
-                selected_dept = "All"
+                cats = get_categories(inventory)
+                selected_cat = st.selectbox("Filter by Group", ["All"] + cats)
         with col3:
-            search_term = st.text_input("🔍 Search products", placeholder="Search by name...")
+            if selected_brand != "All" and selected_cat != "All":
+                subs = get_sub_categories(inventory, selected_brand, selected_cat)
+                selected_sub = st.selectbox("Filter by Sub Group", ["All"] + subs)
+            else:
+                selected_sub = "All"
+        
+        search_term = st.text_input("🔍 Search products", placeholder="Search by name or SKU...")
 
         # Filter products
         filtered = products
         if selected_brand != "All":
             filtered = [p for p in filtered if (p.get("brand") or "").lower() == selected_brand.lower()]
-        if selected_dept != "All":
-            filtered = [p for p in filtered if (p.get("department") or "").lower() == selected_dept.lower()]
+        if selected_cat != "All":
+            filtered = [p for p in filtered if (p.get("category") or "").lower() == selected_cat.lower()]
+        if selected_sub != "All":
+            filtered = [p for p in filtered if (p.get("sub_category") or "").lower() == selected_sub.lower()]
         if search_term:
-            filtered = [p for p in filtered if search_term.lower() in (p.get("product_name") or "").lower()]
+            search_lower = search_term.lower()
+            filtered = [
+                p for p in filtered
+                if search_lower in (p.get("product_title") or "").lower()
+                or search_lower in (p.get("style_code") or "").lower()
+            ]
 
         st.write(f"Showing **{len(filtered)}** products")
 
@@ -317,22 +236,32 @@ with tab3:
         st.write("### Selected Products")
         summary_data = []
         total_qty = 0
+        total_value = 0
         for item in st.session_state.selected_items:
-            qty = item.get("quantity", 0)
+            qty = item.get("quantity", 0) or 0
+            mrp = item.get("mrp") or 0
             total_qty += qty
+            total_value += mrp * qty
             summary_data.append({
-                "Product": item.get("product_name", ""),
-                "Brand": item.get("matched_brand", item.get("brand", "")),
-                "MRP": item.get("mrp", ""),
+                "Product": item.get("product_title", ""),
+                "Brand": item.get("brand", ""),
+                "Group": item.get("category", ""),
+                "MRP": mrp,
                 "Qty": qty,
+                "Total": mrp * qty,
             })
         st.dataframe(summary_data, use_container_width=True)
-        st.write(f"**Total Quantity:** {total_qty}")
+        
+        col_a, col_b = st.columns(2)
+        with col_a:
+            st.write(f"**Total Quantity:** {total_qty}")
+        with col_b:
+            st.write(f"**Total Value:** ₹{total_value:,.2f}")
 
         # Budget input
         col1, col2 = st.columns(2)
         with col1:
-            total_budget = st.number_input("Total Budget (INR)", min_value=0, value=100000, step=1000)
+            total_budget = st.number_input("Total Budget (INR)", min_value=0, value=max(total_value, 100000), step=1000)
         with col2:
             st.write("")
             st.write("")
