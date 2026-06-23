@@ -22,3 +22,17 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Large Excel & Image folders
+*.xlsx
+Images/
+extracted_images/
+
+# OCR output folders
+blank_slate_ocr_viewer/
+brand_mapped_output/
+ocr_brand_output/
+ocr_extracted_data/
+ocr_final_mapped/
+ocr_improved_matched/
+ocr_matched_output_v2/
