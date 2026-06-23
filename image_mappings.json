@@ -1,1712 +1,4083 @@
 {
-  "OR1017": {
-    "item_code": "OR1017",
-    "brand": "Favori",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_1.png"
-  },
-  "OR1019": {
-    "item_code": "OR1019",
-    "brand": "Favori",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_2.png"
-  },
-  "OR1018": {
-    "item_code": "OR1018",
-    "brand": "Favori",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_3.png"
-  },
-  "OR1020": {
-    "item_code": "OR1020",
-    "brand": "Favori",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_4.png"
-  },
-  "OR1021": {
-    "item_code": "OR1021",
-    "brand": "Favori",
-    "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_5.png"
-  },
-  "OR1016": {
-    "item_code": "OR1016",
-    "brand": "Favori",
-    "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_6.png"
-  },
-  "OR1002": {
-    "item_code": "OR1002",
-    "brand": "Favori",
-    "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_7.png"
-  },
-  "OR1003": {
-    "item_code": "OR1003",
-    "brand": "Favori",
-    "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_8.png"
-  },
-  "OR1004": {
-    "item_code": "OR1004",
-    "brand": "Favori",
-    "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_9.png"
-  },
-  "OR1006": {
-    "item_code": "OR1006",
-    "brand": "Favori",
-    "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_10.png"
-  },
-  "OR1011": {
-    "item_code": "OR1011",
-    "brand": "Favori",
-    "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_11.png"
-  },
-  "OR1022": {
-    "item_code": "OR1022",
-    "brand": "Favori",
-    "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_12.png"
-  },
-  "OR1007": {
-    "item_code": "OR1007",
-    "brand": "Favori",
-    "matched_image": "product_13.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_13.png"
-  },
-  "OR1008": {
-    "item_code": "OR1008",
-    "brand": "Favori",
-    "matched_image": "product_14.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_14.png"
-  },
   "OR1000": {
     "item_code": "OR1000",
     "brand": "Favori",
-    "matched_image": "product_15.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_15.png"
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image1.png",
+    "match_confidence": 0.5
   },
   "OR1001": {
     "item_code": "OR1001",
     "brand": "Favori",
-    "matched_image": "product_16.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_16.png"
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image2.png",
+    "match_confidence": 0.5
+  },
+  "OR1002": {
+    "item_code": "OR1002",
+    "brand": "Favori",
+    "matched_image": "image3.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image3.png",
+    "match_confidence": 0.5
+  },
+  "OR1003": {
+    "item_code": "OR1003",
+    "brand": "Favori",
+    "matched_image": "image4.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image4.png",
+    "match_confidence": 0.5
+  },
+  "OR1004": {
+    "item_code": "OR1004",
+    "brand": "Favori",
+    "matched_image": "image5.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image5.png",
+    "match_confidence": 0.5
+  },
+  "OR1006": {
+    "item_code": "OR1006",
+    "brand": "Favori",
+    "matched_image": "image6.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image6.png",
+    "match_confidence": 0.5
+  },
+  "OR1007": {
+    "item_code": "OR1007",
+    "brand": "Favori",
+    "matched_image": "image7.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image7.png",
+    "match_confidence": 0.5
+  },
+  "OR1008": {
+    "item_code": "OR1008",
+    "brand": "Favori",
+    "matched_image": "image8.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image8.png",
+    "match_confidence": 0.5
   },
   "OR1009": {
     "item_code": "OR1009",
     "brand": "Favori",
-    "matched_image": "product_17.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_17.png"
+    "matched_image": "image9.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image9.png",
+    "match_confidence": 0.5
   },
   "OR1010": {
     "item_code": "OR1010",
     "brand": "Favori",
-    "matched_image": "product_18.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_18.png"
+    "matched_image": "image10.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image10.png",
+    "match_confidence": 0.5
+  },
+  "OR1011": {
+    "item_code": "OR1011",
+    "brand": "Favori",
+    "matched_image": "image11.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image11.png",
+    "match_confidence": 0.5
   },
   "OR1012": {
     "item_code": "OR1012",
     "brand": "Favori",
-    "matched_image": "product_19.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_19.png"
+    "matched_image": "image12.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image12.png",
+    "match_confidence": 0.5
   },
   "OR1013": {
     "item_code": "OR1013",
     "brand": "Favori",
-    "matched_image": "product_20.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_20.png"
+    "matched_image": "image13.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image13.png",
+    "match_confidence": 0.5
+  },
+  "OR1016": {
+    "item_code": "OR1016",
+    "brand": "Favori",
+    "matched_image": "image14.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image14.png",
+    "match_confidence": 0.5
+  },
+  "OR1017": {
+    "item_code": "OR1017",
+    "brand": "Favori",
+    "matched_image": "image15.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image15.png",
+    "match_confidence": 0.5
+  },
+  "OR1018": {
+    "item_code": "OR1018",
+    "brand": "Favori",
+    "matched_image": "image16.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image16.png",
+    "match_confidence": 0.5
+  },
+  "OR1019": {
+    "item_code": "OR1019",
+    "brand": "Favori",
+    "matched_image": "image17.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image17.png",
+    "match_confidence": 0.5
+  },
+  "OR1020": {
+    "item_code": "OR1020",
+    "brand": "Favori",
+    "matched_image": "image18.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image18.png",
+    "match_confidence": 0.5
+  },
+  "OR1021": {
+    "item_code": "OR1021",
+    "brand": "Favori",
+    "matched_image": "image19.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image19.png",
+    "match_confidence": 0.5
+  },
+  "OR1022": {
+    "item_code": "OR1022",
+    "brand": "Favori",
+    "matched_image": "image20.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image20.png",
+    "match_confidence": 0.5
+  },
+  "OR1023": {
+    "item_code": "OR1023",
+    "brand": "Aura Studio",
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aura Studio\\image1.png",
+    "match_confidence": 0.5
+  },
+  "OR1024": {
+    "item_code": "OR1024",
+    "brand": "Aura Studio",
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aura Studio\\image2.png",
+    "match_confidence": 0.5
   },
   "OR1027": {
     "item_code": "OR1027",
     "brand": "Favori",
-    "matched_image": "product_21.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_21.png"
+    "matched_image": "image21.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image21.png",
+    "match_confidence": 0.5
   },
   "OR1028": {
     "item_code": "OR1028",
     "brand": "Favori",
-    "matched_image": "product_22.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Favori\\images\\product_22.png"
+    "matched_image": "image22.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Favori\\image22.png",
+    "match_confidence": 0.5
   },
-  "OR1679": {
-    "item_code": "OR1679",
-    "brand": "Munn Home",
+  "OR1029": {
+    "item_code": "OR1029",
+    "brand": "Tiramisu",
     "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_1.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_1.png",
+    "match_confidence": 0.5
   },
-  "OR1671": {
-    "item_code": "OR1671",
-    "brand": "Munn Home",
+  "OR1030": {
+    "item_code": "OR1030",
+    "brand": "Tiramisu",
     "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_2.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_2.png",
+    "match_confidence": 0.5
   },
-  "OR1672": {
-    "item_code": "OR1672",
-    "brand": "Munn Home",
+  "OR1032": {
+    "item_code": "OR1032",
+    "brand": "Tiramisu",
     "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_3.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_3.png",
+    "match_confidence": 0.5
   },
-  "OR1666": {
-    "item_code": "OR1666",
-    "brand": "Munn Home",
+  "OR1033": {
+    "item_code": "OR1033",
+    "brand": "Tiramisu",
     "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_4.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_4.png",
+    "match_confidence": 0.5
   },
-  "OR1668": {
-    "item_code": "OR1668",
-    "brand": "Munn Home",
+  "OR1034": {
+    "item_code": "OR1034",
+    "brand": "Tiramisu",
     "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_5.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_5.png",
+    "match_confidence": 0.5
   },
-  "OR1669": {
-    "item_code": "OR1669",
-    "brand": "Munn Home",
+  "OR1035": {
+    "item_code": "OR1035",
+    "brand": "Tiramisu",
     "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_6.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_6.png",
+    "match_confidence": 0.5
   },
-  "OR1670": {
-    "item_code": "OR1670",
-    "brand": "Munn Home",
+  "OR1036": {
+    "item_code": "OR1036",
+    "brand": "Tiramisu",
     "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_7.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_7.png",
+    "match_confidence": 0.5
   },
-  "OR1667": {
-    "item_code": "OR1667",
-    "brand": "Munn Home",
+  "OR1037": {
+    "item_code": "OR1037",
+    "brand": "Tiramisu",
     "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_8.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_8.png",
+    "match_confidence": 0.5
   },
-  "OR1680": {
-    "item_code": "OR1680",
-    "brand": "Munn Home",
+  "OR1038": {
+    "item_code": "OR1038",
+    "brand": "Tiramisu",
     "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_9.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_9.png",
+    "match_confidence": 0.5
   },
-  "OR1681": {
-    "item_code": "OR1681",
-    "brand": "Munn Home",
+  "OR1039": {
+    "item_code": "OR1039",
+    "brand": "Tiramisu",
     "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_10.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_10.png",
+    "match_confidence": 0.5
   },
-  "OR1677": {
-    "item_code": "OR1677",
-    "brand": "Munn Home",
+  "OR1040": {
+    "item_code": "OR1040",
+    "brand": "Tiramisu",
     "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_11.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_11.png",
+    "match_confidence": 0.5
   },
-  "OR1678": {
-    "item_code": "OR1678",
-    "brand": "Munn Home",
+  "OR1041": {
+    "item_code": "OR1041",
+    "brand": "Tiramisu",
     "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_12.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_12.png",
+    "match_confidence": 0.5
   },
-  "OR1676": {
-    "item_code": "OR1676",
-    "brand": "Munn Home",
+  "OR1042": {
+    "item_code": "OR1042",
+    "brand": "Tiramisu",
     "matched_image": "product_13.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_13.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_13.png",
+    "match_confidence": 0.5
   },
-  "OR1675": {
-    "item_code": "OR1675",
-    "brand": "Munn Home",
+  "OR1043": {
+    "item_code": "OR1043",
+    "brand": "Tiramisu",
     "matched_image": "product_14.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_14.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_14.png",
+    "match_confidence": 0.5
   },
-  "OR1673": {
-    "item_code": "OR1673",
-    "brand": "Munn Home",
+  "OR1044": {
+    "item_code": "OR1044",
+    "brand": "Tiramisu",
     "matched_image": "product_15.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_15.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_15.png",
+    "match_confidence": 0.5
   },
-  "OR1682": {
-    "item_code": "OR1682",
-    "brand": "Munn Home",
+  "OR1045": {
+    "item_code": "OR1045",
+    "brand": "Tiramisu",
     "matched_image": "product_16.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_16.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_16.png",
+    "match_confidence": 0.5
   },
-  "OR1674": {
-    "item_code": "OR1674",
-    "brand": "Munn Home",
+  "OR1046": {
+    "item_code": "OR1046",
+    "brand": "Tiramisu",
     "matched_image": "product_17.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Munn Home\\images\\product_17.png"
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_17.png",
+    "match_confidence": 0.5
   },
-  "OR1688": {
-    "item_code": "OR1688",
-    "brand": "NAAVA",
+  "OR1047": {
+    "item_code": "OR1047",
+    "brand": "Tiramisu",
+    "matched_image": "product_18.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_18.png",
+    "match_confidence": 0.5
+  },
+  "OR1048": {
+    "item_code": "OR1048",
+    "brand": "Tiramisu",
+    "matched_image": "product_19.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_19.png",
+    "match_confidence": 0.5
+  },
+  "OR1049": {
+    "item_code": "OR1049",
+    "brand": "Tiramisu",
+    "matched_image": "product_20.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_20.png",
+    "match_confidence": 0.5
+  },
+  "OR1050": {
+    "item_code": "OR1050",
+    "brand": "Tiramisu",
+    "matched_image": "product_21.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_21.png",
+    "match_confidence": 0.5
+  },
+  "OR1051": {
+    "item_code": "OR1051",
+    "brand": "Tiramisu",
+    "matched_image": "product_22.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_22.png",
+    "match_confidence": 0.5
+  },
+  "OR1052": {
+    "item_code": "OR1052",
+    "brand": "Tiramisu",
+    "matched_image": "product_23.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_23.png",
+    "match_confidence": 0.5
+  },
+  "OR1053": {
+    "item_code": "OR1053",
+    "brand": "Tiramisu",
+    "matched_image": "product_24.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_24.png",
+    "match_confidence": 0.5
+  },
+  "OR1054": {
+    "item_code": "OR1054",
+    "brand": "Tiramisu",
+    "matched_image": "product_25.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_25.png",
+    "match_confidence": 0.5
+  },
+  "OR1055": {
+    "item_code": "OR1055",
+    "brand": "Tiramisu",
+    "matched_image": "product_26.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_26.png",
+    "match_confidence": 0.5
+  },
+  "OR1056": {
+    "item_code": "OR1056",
+    "brand": "Tiramisu",
+    "matched_image": "product_27.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_27.png",
+    "match_confidence": 0.5
+  },
+  "OR1057": {
+    "item_code": "OR1057",
+    "brand": "Tiramisu",
+    "matched_image": "product_28.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_28.png",
+    "match_confidence": 0.5
+  },
+  "OR1058": {
+    "item_code": "OR1058",
+    "brand": "Tiramisu",
+    "matched_image": "product_29.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_29.png",
+    "match_confidence": 0.5
+  },
+  "OR1059": {
+    "item_code": "OR1059",
+    "brand": "Tiramisu",
+    "matched_image": "product_30.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_30.png",
+    "match_confidence": 0.5
+  },
+  "OR1060": {
+    "item_code": "OR1060",
+    "brand": "Tiramisu",
+    "matched_image": "product_31.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_31.png",
+    "match_confidence": 0.5
+  },
+  "OR1061": {
+    "item_code": "OR1061",
+    "brand": "Tiramisu",
+    "matched_image": "product_32.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_32.png",
+    "match_confidence": 0.5
+  },
+  "OR1062": {
+    "item_code": "OR1062",
+    "brand": "Tiramisu",
+    "matched_image": "product_33.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_33.png",
+    "match_confidence": 0.5
+  },
+  "OR1063": {
+    "item_code": "OR1063",
+    "brand": "Tiramisu",
+    "matched_image": "product_34.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_34.png",
+    "match_confidence": 0.5
+  },
+  "OR1064": {
+    "item_code": "OR1064",
+    "brand": "Tiramisu",
+    "matched_image": "product_35.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_35.png",
+    "match_confidence": 0.5
+  },
+  "OR1065": {
+    "item_code": "OR1065",
+    "brand": "Tiramisu",
+    "matched_image": "product_36.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_36.png",
+    "match_confidence": 0.5
+  },
+  "OR1066": {
+    "item_code": "OR1066",
+    "brand": "Tiramisu",
+    "matched_image": "product_37.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_37.png",
+    "match_confidence": 0.5
+  },
+  "OR1067": {
+    "item_code": "OR1067",
+    "brand": "Tiramisu",
+    "matched_image": "product_38.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_38.png",
+    "match_confidence": 0.5
+  },
+  "OR1068": {
+    "item_code": "OR1068",
+    "brand": "Tiramisu",
+    "matched_image": "product_39.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_39.png",
+    "match_confidence": 0.5
+  },
+  "OR1069": {
+    "item_code": "OR1069",
+    "brand": "Tiramisu",
+    "matched_image": "product_40.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_40.png",
+    "match_confidence": 0.5
+  },
+  "OR1071": {
+    "item_code": "OR1071",
+    "brand": "Tiramisu",
+    "matched_image": "product_41.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_41.png",
+    "match_confidence": 0.5
+  },
+  "OR1072": {
+    "item_code": "OR1072",
+    "brand": "Tiramisu",
+    "matched_image": "product_42.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_42.png",
+    "match_confidence": 0.5
+  },
+  "OR1073": {
+    "item_code": "OR1073",
+    "brand": "Tiramisu",
+    "matched_image": "product_43.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_43.png",
+    "match_confidence": 0.5
+  },
+  "OR1074": {
+    "item_code": "OR1074",
+    "brand": "Tiramisu",
+    "matched_image": "product_44.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_44.png",
+    "match_confidence": 0.5
+  },
+  "OR1075": {
+    "item_code": "OR1075",
+    "brand": "Tiramisu",
+    "matched_image": "product_45.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_45.png",
+    "match_confidence": 0.5
+  },
+  "OR1077": {
+    "item_code": "OR1077",
+    "brand": "Tiramisu",
+    "matched_image": "product_46.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_46.png",
+    "match_confidence": 0.5
+  },
+  "OR1078": {
+    "item_code": "OR1078",
+    "brand": "Tiramisu",
+    "matched_image": "product_47.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_47.png",
+    "match_confidence": 0.5
+  },
+  "OR1079": {
+    "item_code": "OR1079",
+    "brand": "Tiramisu",
+    "matched_image": "product_48.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_48.png",
+    "match_confidence": 0.5
+  },
+  "OR1080": {
+    "item_code": "OR1080",
+    "brand": "Tiramisu",
+    "matched_image": "product_49.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_49.png",
+    "match_confidence": 0.5
+  },
+  "OR1081": {
+    "item_code": "OR1081",
+    "brand": "Tiramisu",
+    "matched_image": "product_50.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_50.png",
+    "match_confidence": 0.5
+  },
+  "OR1082": {
+    "item_code": "OR1082",
+    "brand": "Tiramisu",
+    "matched_image": "product_51.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_51.png",
+    "match_confidence": 0.5
+  },
+  "OR1083": {
+    "item_code": "OR1083",
+    "brand": "Tiramisu",
+    "matched_image": "product_52.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_52.png",
+    "match_confidence": 0.5
+  },
+  "OR1084": {
+    "item_code": "OR1084",
+    "brand": "Tiramisu",
+    "matched_image": "product_53.png",
+    "image_path": "ocr_extracted_data\\Tiramisu_images\\product_53.png",
+    "match_confidence": 0.5
+  },
+  "OR1085": {
+    "item_code": "OR1085",
+    "brand": "Tiramisu",
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image1.png",
+    "match_confidence": 0.5
+  },
+  "OR1086": {
+    "item_code": "OR1086",
+    "brand": "Tiramisu",
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image2.png",
+    "match_confidence": 0.5
+  },
+  "OR1087": {
+    "item_code": "OR1087",
+    "brand": "Tiramisu",
+    "matched_image": "image3.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image3.png",
+    "match_confidence": 0.5
+  },
+  "OR1088": {
+    "item_code": "OR1088",
+    "brand": "Tiramisu",
+    "matched_image": "image4.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image4.png",
+    "match_confidence": 0.5
+  },
+  "OR1089": {
+    "item_code": "OR1089",
+    "brand": "Tiramisu",
+    "matched_image": "image5.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image5.png",
+    "match_confidence": 0.5
+  },
+  "OR1090": {
+    "item_code": "OR1090",
+    "brand": "Tiramisu",
+    "matched_image": "image6.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image6.png",
+    "match_confidence": 0.5
+  },
+  "OR1091": {
+    "item_code": "OR1091",
+    "brand": "Tiramisu",
+    "matched_image": "image7.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image7.png",
+    "match_confidence": 0.5
+  },
+  "OR1092": {
+    "item_code": "OR1092",
+    "brand": "Tiramisu",
+    "matched_image": "image8.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image8.png",
+    "match_confidence": 0.5
+  },
+  "OR1093": {
+    "item_code": "OR1093",
+    "brand": "Tiramisu",
+    "matched_image": "image9.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image9.png",
+    "match_confidence": 0.5
+  },
+  "OR1094": {
+    "item_code": "OR1094",
+    "brand": "Tiramisu",
+    "matched_image": "image10.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image10.png",
+    "match_confidence": 0.5
+  },
+  "OR1095": {
+    "item_code": "OR1095",
+    "brand": "Tiramisu",
+    "matched_image": "image11.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image11.png",
+    "match_confidence": 0.5
+  },
+  "OR1096": {
+    "item_code": "OR1096",
+    "brand": "Tiramisu",
+    "matched_image": "image12.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image12.png",
+    "match_confidence": 0.5
+  },
+  "OR1097": {
+    "item_code": "OR1097",
+    "brand": "Tiramisu",
+    "matched_image": "image13.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image13.png",
+    "match_confidence": 0.5
+  },
+  "OR1098": {
+    "item_code": "OR1098",
+    "brand": "Tiramisu",
+    "matched_image": "image14.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image14.png",
+    "match_confidence": 0.5
+  },
+  "OR1099": {
+    "item_code": "OR1099",
+    "brand": "Tiramisu",
+    "matched_image": "image15.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image15.png",
+    "match_confidence": 0.5
+  },
+  "OR1100": {
+    "item_code": "OR1100",
+    "brand": "Tiramisu",
+    "matched_image": "image16.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image16.png",
+    "match_confidence": 0.5
+  },
+  "OR1101": {
+    "item_code": "OR1101",
+    "brand": "Tiramisu",
+    "matched_image": "image17.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image17.png",
+    "match_confidence": 0.5
+  },
+  "OR1103": {
+    "item_code": "OR1103",
+    "brand": "Tiramisu",
+    "matched_image": "image18.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image18.png",
+    "match_confidence": 0.5
+  },
+  "OR1104": {
+    "item_code": "OR1104",
+    "brand": "Tiramisu",
+    "matched_image": "image19.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image19.png",
+    "match_confidence": 0.5
+  },
+  "OR1105": {
+    "item_code": "OR1105",
+    "brand": "Tiramisu",
+    "matched_image": "image20.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image20.png",
+    "match_confidence": 0.5
+  },
+  "OR1106": {
+    "item_code": "OR1106",
+    "brand": "Tiramisu",
+    "matched_image": "image21.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image21.png",
+    "match_confidence": 0.5
+  },
+  "OR1107": {
+    "item_code": "OR1107",
+    "brand": "Tiramisu",
+    "matched_image": "image22.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image22.png",
+    "match_confidence": 0.5
+  },
+  "OR1108": {
+    "item_code": "OR1108",
+    "brand": "Tiramisu",
+    "matched_image": "image23.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image23.png",
+    "match_confidence": 0.5
+  },
+  "OR1109": {
+    "item_code": "OR1109",
+    "brand": "Tiramisu",
+    "matched_image": "image24.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image24.png",
+    "match_confidence": 0.5
+  },
+  "OR1111": {
+    "item_code": "OR1111",
+    "brand": "Tiramisu",
+    "matched_image": "image25.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image25.png",
+    "match_confidence": 0.5
+  },
+  "OR1112": {
+    "item_code": "OR1112",
+    "brand": "Tiramisu",
+    "matched_image": "image26.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Tiramisu\\image26.png",
+    "match_confidence": 0.5
+  },
+  "OR1118": {
+    "item_code": "OR1118",
+    "brand": "SSN Belts",
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image1.png",
+    "match_confidence": 0.5
+  },
+  "OR1119": {
+    "item_code": "OR1119",
+    "brand": "SSN Belts",
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image2.png",
+    "match_confidence": 0.5
+  },
+  "OR1120": {
+    "item_code": "OR1120",
+    "brand": "SSN Belts",
+    "matched_image": "image3.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image3.png",
+    "match_confidence": 0.5
+  },
+  "OR1121": {
+    "item_code": "OR1121",
+    "brand": "SSN Belts",
+    "matched_image": "image4.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image4.png",
+    "match_confidence": 0.5
+  },
+  "OR1122": {
+    "item_code": "OR1122",
+    "brand": "SSN Belts",
+    "matched_image": "image5.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image5.png",
+    "match_confidence": 0.5
+  },
+  "OR1123": {
+    "item_code": "OR1123",
+    "brand": "SSN Belts",
+    "matched_image": "image6.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image6.png",
+    "match_confidence": 0.5
+  },
+  "OR1124": {
+    "item_code": "OR1124",
+    "brand": "SSN Belts",
+    "matched_image": "image7.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image7.png",
+    "match_confidence": 0.5
+  },
+  "OR1125": {
+    "item_code": "OR1125",
+    "brand": "SSN Belts",
+    "matched_image": "image8.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image8.png",
+    "match_confidence": 0.5
+  },
+  "OR1126": {
+    "item_code": "OR1126",
+    "brand": "SSN Belts",
+    "matched_image": "image9.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image9.png",
+    "match_confidence": 0.5
+  },
+  "OR1127": {
+    "item_code": "OR1127",
+    "brand": "SSN Belts",
+    "matched_image": "image10.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image10.png",
+    "match_confidence": 0.5
+  },
+  "OR1128": {
+    "item_code": "OR1128",
+    "brand": "SSN Belts",
+    "matched_image": "image11.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image11.png",
+    "match_confidence": 0.5
+  },
+  "OR1129": {
+    "item_code": "OR1129",
+    "brand": "SSN Belts",
+    "matched_image": "image12.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image12.png",
+    "match_confidence": 0.5
+  },
+  "OR1130": {
+    "item_code": "OR1130",
+    "brand": "SSN Belts",
+    "matched_image": "image13.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image13.png",
+    "match_confidence": 0.5
+  },
+  "OR1131": {
+    "item_code": "OR1131",
+    "brand": "SSN Belts",
+    "matched_image": "image14.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image14.png",
+    "match_confidence": 0.5
+  },
+  "OR1132": {
+    "item_code": "OR1132",
+    "brand": "SSN Belts",
+    "matched_image": "image15.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image15.png",
+    "match_confidence": 0.5
+  },
+  "OR1133": {
+    "item_code": "OR1133",
+    "brand": "SSN Belts",
+    "matched_image": "image16.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image16.png",
+    "match_confidence": 0.5
+  },
+  "OR1134": {
+    "item_code": "OR1134",
+    "brand": "SSN Belts",
+    "matched_image": "image17.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image17.png",
+    "match_confidence": 0.5
+  },
+  "OR1135": {
+    "item_code": "OR1135",
+    "brand": "SSN Belts",
+    "matched_image": "image18.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image18.png",
+    "match_confidence": 0.5
+  },
+  "OR1136": {
+    "item_code": "OR1136",
+    "brand": "SSN Belts",
+    "matched_image": "image19.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\SSN Belts\\image19.png",
+    "match_confidence": 0.5
+  },
+  "OR1138": {
+    "item_code": "OR1138",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_1.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_1.png",
+    "match_confidence": 0.5
   },
-  "OR1689": {
-    "item_code": "OR1689",
-    "brand": "NAAVA",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_1.png"
-  },
-  "OR1690": {
-    "item_code": "OR1690",
-    "brand": "NAAVA",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_1.png"
-  },
-  "OR1691": {
-    "item_code": "OR1691",
-    "brand": "NAAVA",
+  "OR1139": {
+    "item_code": "OR1139",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_2.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_2.png",
+    "match_confidence": 0.5
   },
-  "OR1692": {
-    "item_code": "OR1692",
-    "brand": "NAAVA",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_2.png"
-  },
-  "OR1693": {
-    "item_code": "OR1693",
-    "brand": "NAAVA",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_2.png"
-  },
-  "OR1694": {
-    "item_code": "OR1694",
-    "brand": "NAAVA",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_2.png"
-  },
-  "OR1695": {
-    "item_code": "OR1695",
-    "brand": "NAAVA",
+  "OR1140": {
+    "item_code": "OR1140",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_3.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_3.png",
+    "match_confidence": 0.5
   },
-  "OR1696": {
-    "item_code": "OR1696",
-    "brand": "NAAVA",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_3.png"
-  },
-  "OR1697": {
-    "item_code": "OR1697",
-    "brand": "NAAVA",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_3.png"
-  },
-  "OR1698": {
-    "item_code": "OR1698",
-    "brand": "NAAVA",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_3.png"
-  },
-  "OR1699": {
-    "item_code": "OR1699",
-    "brand": "NAAVA",
+  "OR1141": {
+    "item_code": "OR1141",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_4.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_4.png",
+    "match_confidence": 0.5
   },
-  "OR1700": {
-    "item_code": "OR1700",
-    "brand": "NAAVA",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_4.png"
-  },
-  "OR1701": {
-    "item_code": "OR1701",
-    "brand": "NAAVA",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_4.png"
-  },
-  "OR1702": {
-    "item_code": "OR1702",
-    "brand": "NAAVA",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_4.png"
-  },
-  "OR1703": {
-    "item_code": "OR1703",
-    "brand": "NAAVA",
+  "OR1142": {
+    "item_code": "OR1142",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_5.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_5.png",
+    "match_confidence": 0.5
   },
-  "OR1704": {
-    "item_code": "OR1704",
-    "brand": "NAAVA",
-    "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_5.png"
-  },
-  "OR1705": {
-    "item_code": "OR1705",
-    "brand": "NAAVA",
-    "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_5.png"
-  },
-  "OR1706": {
-    "item_code": "OR1706",
-    "brand": "NAAVA",
-    "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_5.png"
-  },
-  "OR1707": {
-    "item_code": "OR1707",
-    "brand": "NAAVA",
+  "OR1143": {
+    "item_code": "OR1143",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_6.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_6.png",
+    "match_confidence": 0.5
   },
-  "OR1708": {
-    "item_code": "OR1708",
-    "brand": "NAAVA",
-    "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_6.png"
-  },
-  "OR1709": {
-    "item_code": "OR1709",
-    "brand": "NAAVA",
-    "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_6.png"
-  },
-  "OR1710": {
-    "item_code": "OR1710",
-    "brand": "NAAVA",
-    "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_6.png"
-  },
-  "OR1711": {
-    "item_code": "OR1711",
-    "brand": "NAAVA",
+  "OR1144": {
+    "item_code": "OR1144",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_7.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_7.png",
+    "match_confidence": 0.5
   },
-  "OR1712": {
-    "item_code": "OR1712",
-    "brand": "NAAVA",
-    "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_7.png"
-  },
-  "OR1713": {
-    "item_code": "OR1713",
-    "brand": "NAAVA",
-    "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_7.png"
-  },
-  "OR1714": {
-    "item_code": "OR1714",
-    "brand": "NAAVA",
-    "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_7.png"
-  },
-  "OR1715": {
-    "item_code": "OR1715",
-    "brand": "NAAVA",
+  "OR1145": {
+    "item_code": "OR1145",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_8.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_8.png",
+    "match_confidence": 0.5
   },
-  "OR1716": {
-    "item_code": "OR1716",
-    "brand": "NAAVA",
-    "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_8.png"
-  },
-  "OR1717": {
-    "item_code": "OR1717",
-    "brand": "NAAVA",
-    "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_8.png"
-  },
-  "OR1718": {
-    "item_code": "OR1718",
-    "brand": "NAAVA",
-    "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_8.png"
-  },
-  "OR1719": {
-    "item_code": "OR1719",
-    "brand": "NAAVA",
+  "OR1146": {
+    "item_code": "OR1146",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_9.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_9.png",
+    "match_confidence": 0.5
   },
-  "OR1720": {
-    "item_code": "OR1720",
-    "brand": "NAAVA",
-    "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_9.png"
-  },
-  "OR1721": {
-    "item_code": "OR1721",
-    "brand": "NAAVA",
-    "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_9.png"
-  },
-  "OR1722": {
-    "item_code": "OR1722",
-    "brand": "NAAVA",
-    "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_9.png"
-  },
-  "OR1723": {
-    "item_code": "OR1723",
-    "brand": "NAAVA",
+  "OR1147": {
+    "item_code": "OR1147",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_10.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_10.png",
+    "match_confidence": 0.5
   },
-  "OR1724": {
-    "item_code": "OR1724",
-    "brand": "NAAVA",
-    "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_10.png"
-  },
-  "OR1725": {
-    "item_code": "OR1725",
-    "brand": "NAAVA",
-    "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_10.png"
-  },
-  "OR1726": {
-    "item_code": "OR1726",
-    "brand": "NAAVA",
-    "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_10.png"
-  },
-  "OR1727": {
-    "item_code": "OR1727",
-    "brand": "NAAVA",
+  "OR1148": {
+    "item_code": "OR1148",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_11.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_11.png",
+    "match_confidence": 0.5
   },
-  "OR1728": {
-    "item_code": "OR1728",
-    "brand": "NAAVA",
-    "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_11.png"
-  },
-  "OR1729": {
-    "item_code": "OR1729",
-    "brand": "NAAVA",
-    "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_11.png"
-  },
-  "OR1730": {
-    "item_code": "OR1730",
-    "brand": "NAAVA",
-    "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_11.png"
-  },
-  "OR1731": {
-    "item_code": "OR1731",
-    "brand": "NAAVA",
+  "OR1149": {
+    "item_code": "OR1149",
+    "brand": "Jyotir Gamaya",
     "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_12.png"
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_12.png",
+    "match_confidence": 0.5
   },
-  "OR1732": {
-    "item_code": "OR1732",
-    "brand": "NAAVA",
-    "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_12.png"
+  "OR1150": {
+    "item_code": "OR1150",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_13.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_13.png",
+    "match_confidence": 0.5
   },
-  "OR1733": {
-    "item_code": "OR1733",
-    "brand": "NAAVA",
-    "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_12.png"
+  "OR1151": {
+    "item_code": "OR1151",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_14.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_14.png",
+    "match_confidence": 0.5
   },
-  "OR1734": {
-    "item_code": "OR1734",
-    "brand": "NAAVA",
-    "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\NAAVA\\images\\product_12.png"
+  "OR1152": {
+    "item_code": "OR1152",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_15.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_15.png",
+    "match_confidence": 0.5
+  },
+  "OR1153": {
+    "item_code": "OR1153",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_16.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_16.png",
+    "match_confidence": 0.5
+  },
+  "OR1154": {
+    "item_code": "OR1154",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_17.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_17.png",
+    "match_confidence": 0.5
+  },
+  "OR1155": {
+    "item_code": "OR1155",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_18.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_18.png",
+    "match_confidence": 0.5
+  },
+  "OR1156": {
+    "item_code": "OR1156",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_19.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_19.png",
+    "match_confidence": 0.5
+  },
+  "OR1157": {
+    "item_code": "OR1157",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_20.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_20.png",
+    "match_confidence": 0.5
+  },
+  "OR1158": {
+    "item_code": "OR1158",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_21.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_21.png",
+    "match_confidence": 0.5
+  },
+  "OR1159": {
+    "item_code": "OR1159",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_22.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_22.png",
+    "match_confidence": 0.5
+  },
+  "OR1160": {
+    "item_code": "OR1160",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_23.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_23.png",
+    "match_confidence": 0.5
+  },
+  "OR1161": {
+    "item_code": "OR1161",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_24.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_24.png",
+    "match_confidence": 0.5
+  },
+  "OR1162": {
+    "item_code": "OR1162",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_25.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_25.png",
+    "match_confidence": 0.5
+  },
+  "OR1163": {
+    "item_code": "OR1163",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_26.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_26.png",
+    "match_confidence": 0.5
+  },
+  "OR1164": {
+    "item_code": "OR1164",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_27.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_27.png",
+    "match_confidence": 0.5
+  },
+  "OR1165": {
+    "item_code": "OR1165",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_28.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_28.png",
+    "match_confidence": 0.5
+  },
+  "OR1166": {
+    "item_code": "OR1166",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_29.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_29.png",
+    "match_confidence": 0.5
+  },
+  "OR1167": {
+    "item_code": "OR1167",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_30.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_30.png",
+    "match_confidence": 0.5
+  },
+  "OR1168": {
+    "item_code": "OR1168",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_31.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_31.png",
+    "match_confidence": 0.5
+  },
+  "OR1169": {
+    "item_code": "OR1169",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_32.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_32.png",
+    "match_confidence": 0.5
+  },
+  "OR1170": {
+    "item_code": "OR1170",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_33.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_33.png",
+    "match_confidence": 0.5
+  },
+  "OR1171": {
+    "item_code": "OR1171",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "product_34.png",
+    "image_path": "ocr_extracted_data\\Jyotir Gamaya_images\\product_34.png",
+    "match_confidence": 0.5
+  },
+  "OR1172": {
+    "item_code": "OR1172",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Jyotir Gamaya x Toscee .xlsx\\image1.png",
+    "match_confidence": 0.5
+  },
+  "OR1173": {
+    "item_code": "OR1173",
+    "brand": "Jyotir Gamaya",
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Jyotir Gamaya x Toscee .xlsx\\image2.png",
+    "match_confidence": 0.5
   },
   "OR1184": {
     "item_code": "OR1184",
     "brand": "She Ela Jewels",
     "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_1.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_1.png",
+    "match_confidence": 1.0
   },
   "OR1185": {
     "item_code": "OR1185",
     "brand": "She Ela Jewels",
     "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_2.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_2.png",
+    "match_confidence": 1.0
   },
   "OR1186": {
     "item_code": "OR1186",
     "brand": "She Ela Jewels",
     "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_3.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_3.png",
+    "match_confidence": 1.0
   },
   "OR1187": {
     "item_code": "OR1187",
     "brand": "She Ela Jewels",
     "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_4.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_4.png",
+    "match_confidence": 1.0
   },
   "OR1188": {
     "item_code": "OR1188",
     "brand": "She Ela Jewels",
     "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_5.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_5.png",
+    "match_confidence": 1.0
   },
   "OR1189": {
     "item_code": "OR1189",
     "brand": "She Ela Jewels",
     "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_6.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_6.png",
+    "match_confidence": 1.0
   },
   "OR1190": {
     "item_code": "OR1190",
     "brand": "She Ela Jewels",
     "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_7.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_7.png",
+    "match_confidence": 1.0
   },
   "OR1191": {
     "item_code": "OR1191",
     "brand": "She Ela Jewels",
     "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_8.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_8.png",
+    "match_confidence": 1.0
   },
   "OR1192": {
     "item_code": "OR1192",
     "brand": "She Ela Jewels",
     "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_9.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_9.png",
+    "match_confidence": 1.0
   },
   "OR1193": {
     "item_code": "OR1193",
     "brand": "She Ela Jewels",
     "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_10.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_10.png",
+    "match_confidence": 1.0
   },
   "OR1194": {
     "item_code": "OR1194",
     "brand": "She Ela Jewels",
     "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_11.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_11.png",
+    "match_confidence": 1.0
   },
   "OR1195": {
     "item_code": "OR1195",
     "brand": "She Ela Jewels",
     "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_12.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_12.png",
+    "match_confidence": 1.0
   },
   "OR1196": {
     "item_code": "OR1196",
     "brand": "She Ela Jewels",
     "matched_image": "product_13.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_13.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_13.png",
+    "match_confidence": 1.0
   },
   "OR1197": {
     "item_code": "OR1197",
     "brand": "She Ela Jewels",
     "matched_image": "product_14.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_14.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_14.png",
+    "match_confidence": 1.0
   },
   "OR1198": {
     "item_code": "OR1198",
     "brand": "She Ela Jewels",
     "matched_image": "product_15.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_15.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_15.png",
+    "match_confidence": 1.0
   },
   "OR1199": {
     "item_code": "OR1199",
     "brand": "She Ela Jewels",
     "matched_image": "product_16.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_16.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_16.png",
+    "match_confidence": 1.0
   },
   "OR1200": {
     "item_code": "OR1200",
     "brand": "She Ela Jewels",
     "matched_image": "product_17.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_17.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_17.png",
+    "match_confidence": 1.0
   },
   "OR1201": {
     "item_code": "OR1201",
     "brand": "She Ela Jewels",
     "matched_image": "product_18.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_18.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_18.png",
+    "match_confidence": 1.0
   },
   "OR1202": {
     "item_code": "OR1202",
     "brand": "She Ela Jewels",
     "matched_image": "product_19.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_19.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_19.png",
+    "match_confidence": 1.0
   },
   "OR1203": {
     "item_code": "OR1203",
     "brand": "She Ela Jewels",
     "matched_image": "product_20.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_20.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_20.png",
+    "match_confidence": 1.0
   },
   "OR1204": {
     "item_code": "OR1204",
     "brand": "She Ela Jewels",
     "matched_image": "product_21.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_21.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_21.png",
+    "match_confidence": 1.0
   },
   "OR1205": {
     "item_code": "OR1205",
     "brand": "She Ela Jewels",
     "matched_image": "product_22.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_22.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_22.png",
+    "match_confidence": 1.0
   },
   "OR1206": {
     "item_code": "OR1206",
     "brand": "She Ela Jewels",
     "matched_image": "product_23.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_23.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_23.png",
+    "match_confidence": 1.0
   },
   "OR1207": {
     "item_code": "OR1207",
     "brand": "She Ela Jewels",
     "matched_image": "product_24.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_24.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_24.png",
+    "match_confidence": 1.0
   },
   "OR1208": {
     "item_code": "OR1208",
     "brand": "She Ela Jewels",
     "matched_image": "product_25.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_25.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_25.png",
+    "match_confidence": 1.0
   },
   "OR1209": {
     "item_code": "OR1209",
     "brand": "She Ela Jewels",
     "matched_image": "product_26.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_26.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_26.png",
+    "match_confidence": 1.0
   },
   "OR1210": {
     "item_code": "OR1210",
     "brand": "She Ela Jewels",
     "matched_image": "product_27.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_27.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_27.png",
+    "match_confidence": 1.0
   },
   "OR1211": {
     "item_code": "OR1211",
     "brand": "She Ela Jewels",
     "matched_image": "product_28.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_28.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_28.png",
+    "match_confidence": 1.0
   },
   "OR1212": {
     "item_code": "OR1212",
     "brand": "She Ela Jewels",
     "matched_image": "product_29.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_29.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_29.png",
+    "match_confidence": 1.0
   },
   "OR1213": {
     "item_code": "OR1213",
     "brand": "She Ela Jewels",
     "matched_image": "product_30.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_30.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_30.png",
+    "match_confidence": 1.0
   },
   "OR1214": {
     "item_code": "OR1214",
     "brand": "She Ela Jewels",
     "matched_image": "product_31.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_31.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_31.png",
+    "match_confidence": 1.0
   },
   "OR1215": {
     "item_code": "OR1215",
     "brand": "She Ela Jewels",
     "matched_image": "product_32.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_32.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_32.png",
+    "match_confidence": 1.0
   },
   "OR1216": {
     "item_code": "OR1216",
     "brand": "She Ela Jewels",
     "matched_image": "product_33.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_33.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_33.png",
+    "match_confidence": 1.0
   },
   "OR1217": {
     "item_code": "OR1217",
     "brand": "She Ela Jewels",
     "matched_image": "product_34.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_34.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_34.png",
+    "match_confidence": 1.0
   },
   "OR1218": {
     "item_code": "OR1218",
     "brand": "She Ela Jewels",
     "matched_image": "product_35.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_35.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_35.png",
+    "match_confidence": 1.0
   },
   "OR1220": {
     "item_code": "OR1220",
     "brand": "She Ela Jewels",
     "matched_image": "product_37.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_37.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_37.png",
+    "match_confidence": 1.0
   },
   "OR1221": {
     "item_code": "OR1221",
     "brand": "She Ela Jewels",
     "matched_image": "product_38.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_38.png"
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_38.png",
+    "match_confidence": 1.0
   },
   "OR1222": {
     "item_code": "OR1222",
     "brand": "She Ela Jewels",
-    "matched_image": "product_39.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_39.png"
+    "matched_image": "product_40.png",
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_40.png",
+    "match_confidence": 1.0
   },
   "OR1223": {
     "item_code": "OR1223",
     "brand": "She Ela Jewels",
-    "matched_image": "product_40.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_40.png"
+    "matched_image": "product_41.png",
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_41.png",
+    "match_confidence": 1.0
   },
   "OR1224": {
     "item_code": "OR1224",
     "brand": "She Ela Jewels",
-    "matched_image": "product_41.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_41.png"
+    "matched_image": "product_42.png",
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_42.png",
+    "match_confidence": 1.0
   },
   "OR1225": {
     "item_code": "OR1225",
     "brand": "She Ela Jewels",
-    "matched_image": "product_42.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_42.png"
+    "matched_image": "product_43.png",
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_43.png",
+    "match_confidence": 1.0
   },
   "OR1226": {
     "item_code": "OR1226",
     "brand": "She Ela Jewels",
-    "matched_image": "product_43.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_43.png"
+    "matched_image": "product_44.png",
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_44.png",
+    "match_confidence": 1.0
   },
   "OR1227": {
     "item_code": "OR1227",
     "brand": "She Ela Jewels",
-    "matched_image": "product_44.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_44.png"
+    "matched_image": "product_46.png",
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_46.png",
+    "match_confidence": 1.0
   },
   "OR1228": {
     "item_code": "OR1228",
     "brand": "She Ela Jewels",
-    "matched_image": "product_45.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_45.png"
+    "matched_image": "product_47.png",
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_47.png",
+    "match_confidence": 1.0
   },
   "OR1229": {
     "item_code": "OR1229",
     "brand": "She Ela Jewels",
-    "matched_image": "product_46.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_46.png"
+    "matched_image": "product_48.png",
+    "image_path": "ocr_matched_output_v2/brand_mapped_output\\She Ela Jewels\\images\\product_48.png",
+    "match_confidence": 1.0
   },
-  "OR1230": {
-    "item_code": "OR1230",
-    "brand": "She Ela Jewels",
-    "matched_image": "product_47.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\She Ela Jewels\\images\\product_47.png"
-  },
-  "OR1123": {
-    "item_code": "OR1123",
-    "brand": "SSN Belts",
+  "OR1231": {
+    "item_code": "OR1231",
+    "brand": "Inhanss",
     "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_1.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_1.png",
+    "match_confidence": 0.5
   },
-  "OR1124": {
-    "item_code": "OR1124",
-    "brand": "SSN Belts",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_1.png"
-  },
-  "OR1125": {
-    "item_code": "OR1125",
-    "brand": "SSN Belts",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_1.png"
-  },
-  "OR1126": {
-    "item_code": "OR1126",
-    "brand": "SSN Belts",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_1.png"
-  },
-  "OR1127": {
-    "item_code": "OR1127",
-    "brand": "SSN Belts",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_1.png"
-  },
-  "OR1128": {
-    "item_code": "OR1128",
-    "brand": "SSN Belts",
+  "OR1232": {
+    "item_code": "OR1232",
+    "brand": "Inhanss",
     "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_2.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_2.png",
+    "match_confidence": 0.5
   },
-  "OR1120": {
-    "item_code": "OR1120",
-    "brand": "SSN Belts",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_2.png"
-  },
-  "OR1121": {
-    "item_code": "OR1121",
-    "brand": "SSN Belts",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_2.png"
-  },
-  "OR1122": {
-    "item_code": "OR1122",
-    "brand": "SSN Belts",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_2.png"
-  },
-  "OR1129": {
-    "item_code": "OR1129",
-    "brand": "SSN Belts",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_2.png"
-  },
-  "OR1130": {
-    "item_code": "OR1130",
-    "brand": "SSN Belts",
+  "OR1233": {
+    "item_code": "OR1233",
+    "brand": "Inhanss",
     "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_3.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_3.png",
+    "match_confidence": 0.5
   },
-  "OR1131": {
-    "item_code": "OR1131",
-    "brand": "SSN Belts",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_3.png"
-  },
-  "OR1132": {
-    "item_code": "OR1132",
-    "brand": "SSN Belts",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_3.png"
-  },
-  "OR1133": {
-    "item_code": "OR1133",
-    "brand": "SSN Belts",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_3.png"
-  },
-  "OR1134": {
-    "item_code": "OR1134",
-    "brand": "SSN Belts",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_3.png"
-  },
-  "OR1135": {
-    "item_code": "OR1135",
-    "brand": "SSN Belts",
+  "OR1234": {
+    "item_code": "OR1234",
+    "brand": "Inhanss",
     "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_4.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_4.png",
+    "match_confidence": 0.5
   },
-  "OR1136": {
-    "item_code": "OR1136",
-    "brand": "SSN Belts",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_4.png"
-  },
-  "OR1137": {
-    "item_code": "OR1137",
-    "brand": "SSN Belts",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_4.png"
-  },
-  "OR1118": {
-    "item_code": "OR1118",
-    "brand": "SSN Belts",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_4.png"
-  },
-  "OR1119": {
-    "item_code": "OR1119",
-    "brand": "SSN Belts",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\SSN Belts\\images\\product_4.png"
-  },
-  "OR1519": {
-    "item_code": "OR1519",
-    "brand": "Sukoon",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_1.png"
-  },
-  "OR1517": {
-    "item_code": "OR1517",
-    "brand": "Sukoon",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_2.png"
-  },
-  "OR1518": {
-    "item_code": "OR1518",
-    "brand": "Sukoon",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_3.png"
-  },
-  "OR1521": {
-    "item_code": "OR1521",
-    "brand": "Sukoon",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_4.png"
-  },
-  "OR1522": {
-    "item_code": "OR1522",
-    "brand": "Sukoon",
+  "OR1235": {
+    "item_code": "OR1235",
+    "brand": "Inhanss",
     "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_5.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_5.png",
+    "match_confidence": 0.5
   },
-  "OR1523": {
-    "item_code": "OR1523",
-    "brand": "Sukoon",
+  "OR1236": {
+    "item_code": "OR1236",
+    "brand": "Inhanss",
     "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_6.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_6.png",
+    "match_confidence": 0.5
   },
-  "OR1524": {
-    "item_code": "OR1524",
-    "brand": "Sukoon",
+  "OR1237": {
+    "item_code": "OR1237",
+    "brand": "Inhanss",
     "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_7.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_7.png",
+    "match_confidence": 0.5
   },
-  "OR1525": {
-    "item_code": "OR1525",
-    "brand": "Sukoon",
+  "OR1238": {
+    "item_code": "OR1238",
+    "brand": "Inhanss",
     "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_8.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_8.png",
+    "match_confidence": 0.5
   },
-  "OR1526": {
-    "item_code": "OR1526",
-    "brand": "Sukoon",
+  "OR1239": {
+    "item_code": "OR1239",
+    "brand": "Inhanss",
     "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_9.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_9.png",
+    "match_confidence": 0.5
   },
-  "OR1527": {
-    "item_code": "OR1527",
-    "brand": "Sukoon",
+  "OR1240": {
+    "item_code": "OR1240",
+    "brand": "Inhanss",
     "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_10.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_10.png",
+    "match_confidence": 0.5
   },
-  "OR1528": {
-    "item_code": "OR1528",
-    "brand": "Sukoon",
+  "OR1241": {
+    "item_code": "OR1241",
+    "brand": "Inhanss",
     "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\brand_mapped_output\\Sukoon\\images\\product_11.png"
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_11.png",
+    "match_confidence": 0.5
+  },
+  "OR1242": {
+    "item_code": "OR1242",
+    "brand": "Inhanss",
+    "matched_image": "product_12.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_12.png",
+    "match_confidence": 0.5
+  },
+  "OR1243": {
+    "item_code": "OR1243",
+    "brand": "Inhanss",
+    "matched_image": "product_13.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_13.png",
+    "match_confidence": 0.5
+  },
+  "OR1244": {
+    "item_code": "OR1244",
+    "brand": "Inhanss",
+    "matched_image": "product_14.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_14.png",
+    "match_confidence": 0.5
+  },
+  "OR1245": {
+    "item_code": "OR1245",
+    "brand": "Inhanss",
+    "matched_image": "product_15.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_15.png",
+    "match_confidence": 0.5
+  },
+  "OR1246": {
+    "item_code": "OR1246",
+    "brand": "Inhanss",
+    "matched_image": "product_16.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_16.png",
+    "match_confidence": 0.5
+  },
+  "OR1247": {
+    "item_code": "OR1247",
+    "brand": "Inhanss",
+    "matched_image": "product_17.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_17.png",
+    "match_confidence": 0.5
+  },
+  "OR1248": {
+    "item_code": "OR1248",
+    "brand": "Inhanss",
+    "matched_image": "product_18.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_18.png",
+    "match_confidence": 0.5
+  },
+  "OR1249": {
+    "item_code": "OR1249",
+    "brand": "Inhanss",
+    "matched_image": "product_19.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_19.png",
+    "match_confidence": 0.5
+  },
+  "OR1250": {
+    "item_code": "OR1250",
+    "brand": "Inhanss",
+    "matched_image": "product_20.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_20.png",
+    "match_confidence": 0.5
+  },
+  "OR1251": {
+    "item_code": "OR1251",
+    "brand": "Inhanss",
+    "matched_image": "product_21.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_21.png",
+    "match_confidence": 0.5
+  },
+  "OR1252": {
+    "item_code": "OR1252",
+    "brand": "Inhanss",
+    "matched_image": "product_22.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_22.png",
+    "match_confidence": 0.5
+  },
+  "OR1253": {
+    "item_code": "OR1253",
+    "brand": "Inhanss",
+    "matched_image": "product_23.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_23.png",
+    "match_confidence": 0.5
+  },
+  "OR1254": {
+    "item_code": "OR1254",
+    "brand": "Inhanss",
+    "matched_image": "product_24.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_24.png",
+    "match_confidence": 0.5
+  },
+  "OR1255": {
+    "item_code": "OR1255",
+    "brand": "Inhanss",
+    "matched_image": "product_25.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_25.png",
+    "match_confidence": 0.5
+  },
+  "OR1256": {
+    "item_code": "OR1256",
+    "brand": "Inhanss",
+    "matched_image": "product_26.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_26.png",
+    "match_confidence": 0.5
+  },
+  "OR1257": {
+    "item_code": "OR1257",
+    "brand": "Inhanss",
+    "matched_image": "product_27.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_27.png",
+    "match_confidence": 0.5
+  },
+  "OR1258": {
+    "item_code": "OR1258",
+    "brand": "Inhanss",
+    "matched_image": "product_28.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_28.png",
+    "match_confidence": 0.5
+  },
+  "OR1259": {
+    "item_code": "OR1259",
+    "brand": "Inhanss",
+    "matched_image": "product_29.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_29.png",
+    "match_confidence": 0.5
+  },
+  "OR1260": {
+    "item_code": "OR1260",
+    "brand": "Inhanss",
+    "matched_image": "product_30.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_30.png",
+    "match_confidence": 0.5
+  },
+  "OR1261": {
+    "item_code": "OR1261",
+    "brand": "Inhanss",
+    "matched_image": "product_31.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_31.png",
+    "match_confidence": 0.5
+  },
+  "OR1262": {
+    "item_code": "OR1262",
+    "brand": "Inhanss",
+    "matched_image": "product_32.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_32.png",
+    "match_confidence": 0.5
+  },
+  "OR1263": {
+    "item_code": "OR1263",
+    "brand": "Inhanss",
+    "matched_image": "product_33.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_33.png",
+    "match_confidence": 0.5
+  },
+  "OR1264": {
+    "item_code": "OR1264",
+    "brand": "Inhanss",
+    "matched_image": "product_34.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_34.png",
+    "match_confidence": 0.5
+  },
+  "OR1265": {
+    "item_code": "OR1265",
+    "brand": "Inhanss",
+    "matched_image": "product_35.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_35.png",
+    "match_confidence": 0.5
+  },
+  "OR1266": {
+    "item_code": "OR1266",
+    "brand": "Inhanss",
+    "matched_image": "product_36.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_36.png",
+    "match_confidence": 0.5
+  },
+  "OR1267": {
+    "item_code": "OR1267",
+    "brand": "Inhanss",
+    "matched_image": "product_37.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_37.png",
+    "match_confidence": 0.5
+  },
+  "OR1268": {
+    "item_code": "OR1268",
+    "brand": "Inhanss",
+    "matched_image": "product_38.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_38.png",
+    "match_confidence": 0.5
+  },
+  "OR1269": {
+    "item_code": "OR1269",
+    "brand": "Inhanss",
+    "matched_image": "product_39.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_39.png",
+    "match_confidence": 0.5
+  },
+  "OR1270": {
+    "item_code": "OR1270",
+    "brand": "Inhanss",
+    "matched_image": "product_40.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_40.png",
+    "match_confidence": 0.5
+  },
+  "OR1271": {
+    "item_code": "OR1271",
+    "brand": "Inhanss",
+    "matched_image": "product_41.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_41.png",
+    "match_confidence": 0.5
+  },
+  "OR1272": {
+    "item_code": "OR1272",
+    "brand": "Inhanss",
+    "matched_image": "product_42.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_42.png",
+    "match_confidence": 0.5
+  },
+  "OR1273": {
+    "item_code": "OR1273",
+    "brand": "Inhanss",
+    "matched_image": "product_43.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_43.png",
+    "match_confidence": 0.5
+  },
+  "OR1274": {
+    "item_code": "OR1274",
+    "brand": "Inhanss",
+    "matched_image": "product_44.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_44.png",
+    "match_confidence": 0.5
+  },
+  "OR1275": {
+    "item_code": "OR1275",
+    "brand": "Inhanss",
+    "matched_image": "product_45.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_45.png",
+    "match_confidence": 0.5
+  },
+  "OR1276": {
+    "item_code": "OR1276",
+    "brand": "Inhanss",
+    "matched_image": "product_46.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_46.png",
+    "match_confidence": 0.5
+  },
+  "OR1277": {
+    "item_code": "OR1277",
+    "brand": "Inhanss",
+    "matched_image": "product_47.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_47.png",
+    "match_confidence": 0.5
+  },
+  "OR1278": {
+    "item_code": "OR1278",
+    "brand": "Inhanss",
+    "matched_image": "product_48.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_48.png",
+    "match_confidence": 0.5
+  },
+  "OR1279": {
+    "item_code": "OR1279",
+    "brand": "Inhanss",
+    "matched_image": "product_49.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_49.png",
+    "match_confidence": 0.5
+  },
+  "OR1280": {
+    "item_code": "OR1280",
+    "brand": "Inhanss",
+    "matched_image": "product_50.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_50.png",
+    "match_confidence": 0.5
+  },
+  "OR1281": {
+    "item_code": "OR1281",
+    "brand": "Inhanss",
+    "matched_image": "product_51.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_51.png",
+    "match_confidence": 0.5
+  },
+  "OR1282": {
+    "item_code": "OR1282",
+    "brand": "Inhanss",
+    "matched_image": "product_52.png",
+    "image_path": "ocr_extracted_data\\Inhanss_images\\product_52.png",
+    "match_confidence": 0.5
+  },
+  "OR1283": {
+    "item_code": "OR1283",
+    "brand": "Inhanss",
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image1.png",
+    "match_confidence": 0.5
+  },
+  "OR1284": {
+    "item_code": "OR1284",
+    "brand": "Inhanss",
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image2.png",
+    "match_confidence": 0.5
+  },
+  "OR1285": {
+    "item_code": "OR1285",
+    "brand": "Inhanss",
+    "matched_image": "image3.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image3.png",
+    "match_confidence": 0.5
+  },
+  "OR1286": {
+    "item_code": "OR1286",
+    "brand": "Inhanss",
+    "matched_image": "image4.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image4.png",
+    "match_confidence": 0.5
+  },
+  "OR1287": {
+    "item_code": "OR1287",
+    "brand": "Inhanss",
+    "matched_image": "image5.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image5.png",
+    "match_confidence": 0.5
+  },
+  "OR1288": {
+    "item_code": "OR1288",
+    "brand": "Inhanss",
+    "matched_image": "image6.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image6.png",
+    "match_confidence": 0.5
+  },
+  "OR1289": {
+    "item_code": "OR1289",
+    "brand": "Inhanss",
+    "matched_image": "image7.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image7.png",
+    "match_confidence": 0.5
+  },
+  "OR1290": {
+    "item_code": "OR1290",
+    "brand": "Inhanss",
+    "matched_image": "image8.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image8.png",
+    "match_confidence": 0.5
+  },
+  "OR1291": {
+    "item_code": "OR1291",
+    "brand": "Inhanss",
+    "matched_image": "image9.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image9.png",
+    "match_confidence": 0.5
+  },
+  "OR1292": {
+    "item_code": "OR1292",
+    "brand": "Inhanss",
+    "matched_image": "image10.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image10.png",
+    "match_confidence": 0.5
+  },
+  "OR1293": {
+    "item_code": "OR1293",
+    "brand": "Inhanss",
+    "matched_image": "image11.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image11.png",
+    "match_confidence": 0.5
+  },
+  "OR1294": {
+    "item_code": "OR1294",
+    "brand": "Inhanss",
+    "matched_image": "image12.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image12.png",
+    "match_confidence": 0.5
+  },
+  "OR1295": {
+    "item_code": "OR1295",
+    "brand": "Inhanss",
+    "matched_image": "image13.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image13.png",
+    "match_confidence": 0.5
+  },
+  "OR1296": {
+    "item_code": "OR1296",
+    "brand": "Inhanss",
+    "matched_image": "image14.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image14.png",
+    "match_confidence": 0.5
+  },
+  "OR1297": {
+    "item_code": "OR1297",
+    "brand": "Inhanss",
+    "matched_image": "image15.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image15.png",
+    "match_confidence": 0.5
+  },
+  "OR1298": {
+    "item_code": "OR1298",
+    "brand": "Inhanss",
+    "matched_image": "image16.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image16.png",
+    "match_confidence": 0.5
+  },
+  "OR1299": {
+    "item_code": "OR1299",
+    "brand": "Inhanss",
+    "matched_image": "image17.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image17.png",
+    "match_confidence": 0.5
+  },
+  "OR1300": {
+    "item_code": "OR1300",
+    "brand": "Inhanss",
+    "matched_image": "image18.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image18.png",
+    "match_confidence": 0.5
+  },
+  "OR1301": {
+    "item_code": "OR1301",
+    "brand": "Inhanss",
+    "matched_image": "image19.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image19.png",
+    "match_confidence": 0.5
+  },
+  "OR1302": {
+    "item_code": "OR1302",
+    "brand": "Inhanss",
+    "matched_image": "image20.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image20.png",
+    "match_confidence": 0.5
+  },
+  "OR1303": {
+    "item_code": "OR1303",
+    "brand": "Inhanss",
+    "matched_image": "image21.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image21.png",
+    "match_confidence": 0.5
+  },
+  "OR1304": {
+    "item_code": "OR1304",
+    "brand": "Inhanss",
+    "matched_image": "image22.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image22.png",
+    "match_confidence": 0.5
+  },
+  "OR1305": {
+    "item_code": "OR1305",
+    "brand": "Inhanss",
+    "matched_image": "image23.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image23.png",
+    "match_confidence": 0.5
+  },
+  "OR1306": {
+    "item_code": "OR1306",
+    "brand": "Inhanss",
+    "matched_image": "image24.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image24.png",
+    "match_confidence": 0.5
+  },
+  "OR1308": {
+    "item_code": "OR1308",
+    "brand": "Inhanss",
+    "matched_image": "image25.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image25.png",
+    "match_confidence": 0.5
+  },
+  "OR1309": {
+    "item_code": "OR1309",
+    "brand": "Inhanss",
+    "matched_image": "image26.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image26.png",
+    "match_confidence": 0.5
+  },
+  "OR1310": {
+    "item_code": "OR1310",
+    "brand": "Inhanss",
+    "matched_image": "image27.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image27.png",
+    "match_confidence": 0.5
+  },
+  "OR1311": {
+    "item_code": "OR1311",
+    "brand": "Inhanss",
+    "matched_image": "image28.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image28.png",
+    "match_confidence": 0.5
+  },
+  "OR1312": {
+    "item_code": "OR1312",
+    "brand": "Inhanss",
+    "matched_image": "image29.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image29.png",
+    "match_confidence": 0.5
+  },
+  "OR1313": {
+    "item_code": "OR1313",
+    "brand": "Inhanss",
+    "matched_image": "image30.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image30.png",
+    "match_confidence": 0.5
+  },
+  "OR1314": {
+    "item_code": "OR1314",
+    "brand": "Inhanss",
+    "matched_image": "image31.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image31.png",
+    "match_confidence": 0.5
+  },
+  "OR1315": {
+    "item_code": "OR1315",
+    "brand": "Inhanss",
+    "matched_image": "image32.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image32.png",
+    "match_confidence": 0.5
+  },
+  "OR1316": {
+    "item_code": "OR1316",
+    "brand": "Inhanss",
+    "matched_image": "image33.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image33.png",
+    "match_confidence": 0.5
+  },
+  "OR1317": {
+    "item_code": "OR1317",
+    "brand": "Inhanss",
+    "matched_image": "image34.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image34.png",
+    "match_confidence": 0.5
+  },
+  "OR1318": {
+    "item_code": "OR1318",
+    "brand": "Inhanss",
+    "matched_image": "image35.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image35.png",
+    "match_confidence": 0.5
+  },
+  "OR1319": {
+    "item_code": "OR1319",
+    "brand": "Inhanss",
+    "matched_image": "image36.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image36.png",
+    "match_confidence": 0.5
+  },
+  "OR1320": {
+    "item_code": "OR1320",
+    "brand": "Inhanss",
+    "matched_image": "image37.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image37.png",
+    "match_confidence": 0.5
+  },
+  "OR1321": {
+    "item_code": "OR1321",
+    "brand": "Inhanss",
+    "matched_image": "image38.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image38.png",
+    "match_confidence": 0.5
+  },
+  "OR1322": {
+    "item_code": "OR1322",
+    "brand": "Inhanss",
+    "matched_image": "image39.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image39.png",
+    "match_confidence": 0.5
+  },
+  "OR1323": {
+    "item_code": "OR1323",
+    "brand": "Inhanss",
+    "matched_image": "image40.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image40.png",
+    "match_confidence": 0.5
+  },
+  "OR1324": {
+    "item_code": "OR1324",
+    "brand": "Inhanss",
+    "matched_image": "image41.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image41.png",
+    "match_confidence": 0.5
+  },
+  "OR1325": {
+    "item_code": "OR1325",
+    "brand": "Inhanss",
+    "matched_image": "image42.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image42.png",
+    "match_confidence": 0.5
+  },
+  "OR1326": {
+    "item_code": "OR1326",
+    "brand": "Inhanss",
+    "matched_image": "image43.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image43.png",
+    "match_confidence": 0.5
+  },
+  "OR1327": {
+    "item_code": "OR1327",
+    "brand": "Inhanss",
+    "matched_image": "image44.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image44.png",
+    "match_confidence": 0.5
+  },
+  "OR1328": {
+    "item_code": "OR1328",
+    "brand": "Inhanss",
+    "matched_image": "image45.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image45.png",
+    "match_confidence": 0.5
+  },
+  "OR1329": {
+    "item_code": "OR1329",
+    "brand": "Inhanss",
+    "matched_image": "image46.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image46.png",
+    "match_confidence": 0.5
+  },
+  "OR1330": {
+    "item_code": "OR1330",
+    "brand": "Inhanss",
+    "matched_image": "image47.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image47.png",
+    "match_confidence": 0.5
+  },
+  "OR1331": {
+    "item_code": "OR1331",
+    "brand": "Inhanss",
+    "matched_image": "image48.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image48.png",
+    "match_confidence": 0.5
+  },
+  "OR1333": {
+    "item_code": "OR1333",
+    "brand": "Inhanss",
+    "matched_image": "image49.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image49.png",
+    "match_confidence": 0.5
+  },
+  "OR1334": {
+    "item_code": "OR1334",
+    "brand": "Inhanss",
+    "matched_image": "image50.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image50.png",
+    "match_confidence": 0.5
+  },
+  "OR1335": {
+    "item_code": "OR1335",
+    "brand": "Inhanss",
+    "matched_image": "image51.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image51.png",
+    "match_confidence": 0.5
+  },
+  "OR1336": {
+    "item_code": "OR1336",
+    "brand": "Inhanss",
+    "matched_image": "image52.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Inhanss x Toscee .xlsx\\image52.png",
+    "match_confidence": 0.5
   },
   "OR1451": {
     "item_code": "OR1451",
     "brand": "Banana Labs",
-    "matched_image": "product_28.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_28.png"
+    "matched_image": "product_1.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_1.png",
+    "match_confidence": 0.5
+  },
+  "OR1452": {
+    "item_code": "OR1452",
+    "brand": "Banana Labs",
+    "matched_image": "product_2.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_2.png",
+    "match_confidence": 0.5
   },
   "OR1453": {
     "item_code": "OR1453",
     "brand": "Banana Labs",
-    "matched_image": "product_13.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_13.png"
+    "matched_image": "product_3.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_3.png",
+    "match_confidence": 0.5
+  },
+  "OR1454": {
+    "item_code": "OR1454",
+    "brand": "Banana Labs",
+    "matched_image": "product_4.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_4.png",
+    "match_confidence": 0.5
   },
   "OR1455": {
     "item_code": "OR1455",
     "brand": "Banana Labs",
-    "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_11.png"
+    "matched_image": "product_5.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_5.png",
+    "match_confidence": 0.5
   },
   "OR1456": {
     "item_code": "OR1456",
     "brand": "Banana Labs",
-    "matched_image": "product_52.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_52.png"
+    "matched_image": "product_6.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_6.png",
+    "match_confidence": 0.5
   },
   "OR1457": {
     "item_code": "OR1457",
     "brand": "Banana Labs",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_4.png"
+    "matched_image": "product_7.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_7.png",
+    "match_confidence": 0.5
+  },
+  "OR1458": {
+    "item_code": "OR1458",
+    "brand": "Banana Labs",
+    "matched_image": "product_8.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_8.png",
+    "match_confidence": 0.5
+  },
+  "OR1459": {
+    "item_code": "OR1459",
+    "brand": "Banana Labs",
+    "matched_image": "product_9.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_9.png",
+    "match_confidence": 0.5
   },
   "OR1460": {
     "item_code": "OR1460",
     "brand": "Banana Labs",
-    "matched_image": "product_18.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_18.png"
+    "matched_image": "product_10.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_10.png",
+    "match_confidence": 0.5
+  },
+  "OR1461": {
+    "item_code": "OR1461",
+    "brand": "Banana Labs",
+    "matched_image": "product_11.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_11.png",
+    "match_confidence": 0.5
   },
   "OR1462": {
     "item_code": "OR1462",
     "brand": "Banana Labs",
-    "matched_image": "product_25.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_25.png"
+    "matched_image": "product_12.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_12.png",
+    "match_confidence": 0.5
   },
   "OR1463": {
     "item_code": "OR1463",
     "brand": "Banana Labs",
-    "matched_image": "product_23.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_23.png"
+    "matched_image": "product_13.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_13.png",
+    "match_confidence": 0.5
   },
   "OR1464": {
     "item_code": "OR1464",
     "brand": "Banana Labs",
-    "matched_image": "product_36.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_36.png"
+    "matched_image": "product_14.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_14.png",
+    "match_confidence": 0.5
   },
   "OR1465": {
     "item_code": "OR1465",
     "brand": "Banana Labs",
-    "matched_image": "product_21.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_21.png"
+    "matched_image": "product_15.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_15.png",
+    "match_confidence": 0.5
   },
   "OR1466": {
     "item_code": "OR1466",
     "brand": "Banana Labs",
-    "matched_image": "product_24.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_24.png"
+    "matched_image": "product_16.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_16.png",
+    "match_confidence": 0.5
   },
   "OR1467": {
     "item_code": "OR1467",
     "brand": "Banana Labs",
-    "matched_image": "product_29.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_29.png"
+    "matched_image": "product_17.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_17.png",
+    "match_confidence": 0.5
   },
   "OR1468": {
     "item_code": "OR1468",
     "brand": "Banana Labs",
-    "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_12.png"
+    "matched_image": "product_18.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_18.png",
+    "match_confidence": 0.5
   },
   "OR1469": {
     "item_code": "OR1469",
     "brand": "Banana Labs",
-    "matched_image": "product_33.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_33.png"
+    "matched_image": "product_19.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_19.png",
+    "match_confidence": 0.5
   },
   "OR1470": {
     "item_code": "OR1470",
     "brand": "Banana Labs",
-    "matched_image": "product_15.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_15.png"
+    "matched_image": "product_20.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_20.png",
+    "match_confidence": 0.5
   },
   "OR1471": {
     "item_code": "OR1471",
     "brand": "Banana Labs",
-    "matched_image": "product_26.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_26.png"
+    "matched_image": "product_21.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_21.png",
+    "match_confidence": 0.5
   },
   "OR1472": {
     "item_code": "OR1472",
     "brand": "Banana Labs",
-    "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_7.png"
+    "matched_image": "product_22.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_22.png",
+    "match_confidence": 0.5
   },
   "OR1473": {
     "item_code": "OR1473",
     "brand": "Banana Labs",
-    "matched_image": "product_22.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_22.png"
+    "matched_image": "product_23.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_23.png",
+    "match_confidence": 0.5
   },
   "OR1474": {
     "item_code": "OR1474",
     "brand": "Banana Labs",
-    "matched_image": "product_14.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_14.png"
+    "matched_image": "product_24.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_24.png",
+    "match_confidence": 0.5
   },
   "OR1475": {
     "item_code": "OR1475",
     "brand": "Banana Labs",
-    "matched_image": "product_16.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_16.png"
+    "matched_image": "product_25.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_25.png",
+    "match_confidence": 0.5
   },
   "OR1476": {
     "item_code": "OR1476",
     "brand": "Banana Labs",
-    "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_10.png"
+    "matched_image": "product_26.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_26.png",
+    "match_confidence": 0.5
   },
   "OR1479": {
     "item_code": "OR1479",
     "brand": "Banana Labs",
-    "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_9.png"
+    "matched_image": "product_27.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_27.png",
+    "match_confidence": 0.5
   },
   "OR1480": {
     "item_code": "OR1480",
     "brand": "Banana Labs",
-    "matched_image": "product_20.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_20.png"
+    "matched_image": "product_28.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_28.png",
+    "match_confidence": 0.5
   },
   "OR1481": {
     "item_code": "OR1481",
     "brand": "Banana Labs",
-    "matched_image": "product_30.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Banana Labs_images\\product_30.png"
+    "matched_image": "product_29.png",
+    "image_path": "ocr_extracted_data\\Banana Labs_images\\product_29.png",
+    "match_confidence": 0.5
+  },
+  "OR1482": {
+    "item_code": "OR1482",
+    "brand": "Blank Slate Home",
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image1.png",
+    "match_confidence": 0.5
+  },
+  "OR1483": {
+    "item_code": "OR1483",
+    "brand": "Blank Slate Home",
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image2.png",
+    "match_confidence": 0.5
+  },
+  "OR1484": {
+    "item_code": "OR1484",
+    "brand": "Blank Slate Home",
+    "matched_image": "image3.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image3.png",
+    "match_confidence": 0.5
+  },
+  "OR1485": {
+    "item_code": "OR1485",
+    "brand": "Blank Slate Home",
+    "matched_image": "image4.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image4.png",
+    "match_confidence": 0.5
+  },
+  "OR1486": {
+    "item_code": "OR1486",
+    "brand": "Blank Slate Home",
+    "matched_image": "image5.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image5.png",
+    "match_confidence": 0.5
+  },
+  "OR1487": {
+    "item_code": "OR1487",
+    "brand": "Blank Slate Home",
+    "matched_image": "image6.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image6.png",
+    "match_confidence": 0.5
+  },
+  "OR1488": {
+    "item_code": "OR1488",
+    "brand": "Blank Slate Home",
+    "matched_image": "image7.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image7.png",
+    "match_confidence": 0.5
+  },
+  "OR1489": {
+    "item_code": "OR1489",
+    "brand": "Blank Slate Home",
+    "matched_image": "image8.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image8.png",
+    "match_confidence": 0.5
+  },
+  "OR1490": {
+    "item_code": "OR1490",
+    "brand": "Blank Slate Home",
+    "matched_image": "image9.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image9.png",
+    "match_confidence": 0.5
+  },
+  "OR1491": {
+    "item_code": "OR1491",
+    "brand": "Blank Slate Home",
+    "matched_image": "image10.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image10.png",
+    "match_confidence": 0.5
+  },
+  "OR1492": {
+    "item_code": "OR1492",
+    "brand": "Blank Slate Home",
+    "matched_image": "image11.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image11.png",
+    "match_confidence": 0.5
+  },
+  "OR1493": {
+    "item_code": "OR1493",
+    "brand": "Blank Slate Home",
+    "matched_image": "image12.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image12.png",
+    "match_confidence": 0.5
+  },
+  "OR1494": {
+    "item_code": "OR1494",
+    "brand": "Blank Slate Home",
+    "matched_image": "image13.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image13.png",
+    "match_confidence": 0.5
+  },
+  "OR1495": {
+    "item_code": "OR1495",
+    "brand": "Blank Slate Home",
+    "matched_image": "image14.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image14.png",
+    "match_confidence": 0.5
+  },
+  "OR1496": {
+    "item_code": "OR1496",
+    "brand": "Blank Slate Home",
+    "matched_image": "image15.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image15.png",
+    "match_confidence": 0.5
+  },
+  "OR1497": {
+    "item_code": "OR1497",
+    "brand": "Blank Slate Home",
+    "matched_image": "image16.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image16.png",
+    "match_confidence": 0.5
+  },
+  "OR1498": {
+    "item_code": "OR1498",
+    "brand": "Blank Slate Home",
+    "matched_image": "image17.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image17.png",
+    "match_confidence": 0.5
+  },
+  "OR1499": {
+    "item_code": "OR1499",
+    "brand": "Blank Slate Home",
+    "matched_image": "image18.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image18.png",
+    "match_confidence": 0.5
+  },
+  "OR1500": {
+    "item_code": "OR1500",
+    "brand": "Blank Slate Home",
+    "matched_image": "image19.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image19.png",
+    "match_confidence": 0.5
+  },
+  "OR1501": {
+    "item_code": "OR1501",
+    "brand": "Blank Slate Home",
+    "matched_image": "image20.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image20.png",
+    "match_confidence": 0.5
+  },
+  "OR1502": {
+    "item_code": "OR1502",
+    "brand": "Blank Slate Home",
+    "matched_image": "image21.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image21.png",
+    "match_confidence": 0.5
+  },
+  "OR1503": {
+    "item_code": "OR1503",
+    "brand": "Blank Slate Home",
+    "matched_image": "image22.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image22.png",
+    "match_confidence": 0.5
+  },
+  "OR1504": {
+    "item_code": "OR1504",
+    "brand": "Blank Slate Home",
+    "matched_image": "image23.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image23.png",
+    "match_confidence": 0.5
+  },
+  "OR1505": {
+    "item_code": "OR1505",
+    "brand": "Blank Slate Home",
+    "matched_image": "image24.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image24.png",
+    "match_confidence": 0.5
+  },
+  "OR1506": {
+    "item_code": "OR1506",
+    "brand": "Blank Slate Home",
+    "matched_image": "image25.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image25.png",
+    "match_confidence": 0.5
+  },
+  "OR1507": {
+    "item_code": "OR1507",
+    "brand": "Blank Slate Home",
+    "matched_image": "image26.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image26.png",
+    "match_confidence": 0.5
+  },
+  "OR1508": {
+    "item_code": "OR1508",
+    "brand": "Blank Slate Home",
+    "matched_image": "image27.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image27.png",
+    "match_confidence": 0.5
+  },
+  "OR1509": {
+    "item_code": "OR1509",
+    "brand": "Blank Slate Home",
+    "matched_image": "image28.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image28.png",
+    "match_confidence": 0.5
+  },
+  "OR1510": {
+    "item_code": "OR1510",
+    "brand": "Blank Slate Home",
+    "matched_image": "image29.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image29.png",
+    "match_confidence": 0.5
+  },
+  "OR1511": {
+    "item_code": "OR1511",
+    "brand": "Blank Slate Home",
+    "matched_image": "image30.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image30.png",
+    "match_confidence": 0.5
+  },
+  "OR1512": {
+    "item_code": "OR1512",
+    "brand": "Blank Slate Home",
+    "matched_image": "image31.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image31.png",
+    "match_confidence": 0.5
+  },
+  "OR1513": {
+    "item_code": "OR1513",
+    "brand": "Blank Slate Home",
+    "matched_image": "image32.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image32.png",
+    "match_confidence": 0.5
+  },
+  "OR1514": {
+    "item_code": "OR1514",
+    "brand": "Blank Slate Home",
+    "matched_image": "image33.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image33.png",
+    "match_confidence": 0.5
+  },
+  "OR1515": {
+    "item_code": "OR1515",
+    "brand": "Blank Slate Home",
+    "matched_image": "image34.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image34.png",
+    "match_confidence": 0.5
+  },
+  "OR1516": {
+    "item_code": "OR1516",
+    "brand": "Blank Slate Home",
+    "matched_image": "image35.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Blank Slate Home x Toscee .xlsx\\image35.png",
+    "match_confidence": 0.5
+  },
+  "OR1517": {
+    "item_code": "OR1517",
+    "brand": "Sukoon",
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image1.png",
+    "match_confidence": 0.5
+  },
+  "OR1518": {
+    "item_code": "OR1518",
+    "brand": "Sukoon",
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image2.png",
+    "match_confidence": 0.5
+  },
+  "OR1519": {
+    "item_code": "OR1519",
+    "brand": "Sukoon",
+    "matched_image": "image3.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image3.png",
+    "match_confidence": 0.5
+  },
+  "OR1521": {
+    "item_code": "OR1521",
+    "brand": "Sukoon",
+    "matched_image": "image4.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image4.png",
+    "match_confidence": 0.5
+  },
+  "OR1522": {
+    "item_code": "OR1522",
+    "brand": "Sukoon",
+    "matched_image": "image5.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image5.png",
+    "match_confidence": 0.5
+  },
+  "OR1523": {
+    "item_code": "OR1523",
+    "brand": "Sukoon",
+    "matched_image": "image6.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image6.png",
+    "match_confidence": 0.5
+  },
+  "OR1524": {
+    "item_code": "OR1524",
+    "brand": "Sukoon",
+    "matched_image": "image7.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image7.png",
+    "match_confidence": 0.5
+  },
+  "OR1525": {
+    "item_code": "OR1525",
+    "brand": "Sukoon",
+    "matched_image": "image8.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image8.png",
+    "match_confidence": 0.5
+  },
+  "OR1526": {
+    "item_code": "OR1526",
+    "brand": "Sukoon",
+    "matched_image": "image9.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image9.png",
+    "match_confidence": 0.5
+  },
+  "OR1527": {
+    "item_code": "OR1527",
+    "brand": "Sukoon",
+    "matched_image": "image10.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image10.png",
+    "match_confidence": 0.5
+  },
+  "OR1528": {
+    "item_code": "OR1528",
+    "brand": "Sukoon",
+    "matched_image": "image11.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Sukoon\\image11.png",
+    "match_confidence": 0.5
   },
   "OR1530": {
     "item_code": "OR1530",
     "brand": "Ekatra",
     "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_1.png"
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_1.png",
+    "match_confidence": 0.5
   },
   "OR1531": {
     "item_code": "OR1531",
     "brand": "Ekatra",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_3.png"
+    "matched_image": "product_2.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_2.png",
+    "match_confidence": 0.5
   },
   "OR1532": {
     "item_code": "OR1532",
     "brand": "Ekatra",
-    "matched_image": "product_30.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_30.png"
+    "matched_image": "product_3.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_3.png",
+    "match_confidence": 0.5
   },
   "OR1533": {
     "item_code": "OR1533",
     "brand": "Ekatra",
-    "matched_image": "product_17.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_17.png"
+    "matched_image": "product_4.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_4.png",
+    "match_confidence": 0.5
   },
   "OR1534": {
     "item_code": "OR1534",
     "brand": "Ekatra",
-    "matched_image": "product_21.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_21.png"
+    "matched_image": "product_5.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_5.png",
+    "match_confidence": 0.5
   },
   "OR1535": {
     "item_code": "OR1535",
     "brand": "Ekatra",
-    "matched_image": "product_23.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_23.png"
+    "matched_image": "product_6.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_6.png",
+    "match_confidence": 0.5
   },
   "OR1536": {
     "item_code": "OR1536",
     "brand": "Ekatra",
-    "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_9.png"
+    "matched_image": "product_7.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_7.png",
+    "match_confidence": 0.5
   },
   "OR1537": {
     "item_code": "OR1537",
     "brand": "Ekatra",
-    "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_6.png"
+    "matched_image": "product_8.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_8.png",
+    "match_confidence": 0.5
   },
   "OR1538": {
     "item_code": "OR1538",
     "brand": "Ekatra",
-    "matched_image": "product_19.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_19.png"
+    "matched_image": "product_9.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_9.png",
+    "match_confidence": 0.5
   },
   "OR1539": {
     "item_code": "OR1539",
     "brand": "Ekatra",
-    "matched_image": "product_24.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_24.png"
+    "matched_image": "product_10.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_10.png",
+    "match_confidence": 0.5
   },
   "OR1540": {
     "item_code": "OR1540",
     "brand": "Ekatra",
-    "matched_image": "product_26.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_26.png"
+    "matched_image": "product_11.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_11.png",
+    "match_confidence": 0.5
   },
   "OR1541": {
     "item_code": "OR1541",
     "brand": "Ekatra",
-    "matched_image": "product_28.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_28.png"
+    "matched_image": "product_12.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_12.png",
+    "match_confidence": 0.5
   },
   "OR1542": {
     "item_code": "OR1542",
     "brand": "Ekatra",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_2.png"
+    "matched_image": "product_13.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_13.png",
+    "match_confidence": 0.5
   },
   "OR1543": {
     "item_code": "OR1543",
     "brand": "Ekatra",
-    "matched_image": "product_27.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_27.png"
+    "matched_image": "product_14.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_14.png",
+    "match_confidence": 0.5
   },
   "OR1544": {
     "item_code": "OR1544",
     "brand": "Ekatra",
-    "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_11.png"
+    "matched_image": "product_15.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_15.png",
+    "match_confidence": 0.5
   },
   "OR1545": {
     "item_code": "OR1545",
     "brand": "Ekatra",
-    "matched_image": "product_15.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_15.png"
+    "matched_image": "product_16.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_16.png",
+    "match_confidence": 0.5
   },
   "OR1546": {
     "item_code": "OR1546",
     "brand": "Ekatra",
-    "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_5.png"
+    "matched_image": "product_17.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_17.png",
+    "match_confidence": 0.5
   },
   "OR1547": {
     "item_code": "OR1547",
     "brand": "Ekatra",
-    "matched_image": "product_14.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_14.png"
+    "matched_image": "product_18.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_18.png",
+    "match_confidence": 0.5
   },
   "OR1548": {
     "item_code": "OR1548",
     "brand": "Ekatra",
-    "matched_image": "product_34.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_34.png"
+    "matched_image": "product_19.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_19.png",
+    "match_confidence": 0.5
   },
   "OR1549": {
     "item_code": "OR1549",
     "brand": "Ekatra",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Ekatra_images\\product_4.png"
-  },
-  "OR1606": {
-    "item_code": "OR1606",
-    "brand": "Green Hermitage",
-    "matched_image": "product_24.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_24.png"
-  },
-  "OR1607": {
-    "item_code": "OR1607",
-    "brand": "Green Hermitage",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_2.png"
-  },
-  "OR1608": {
-    "item_code": "OR1608",
-    "brand": "Green Hermitage",
-    "matched_image": "product_25.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_25.png"
-  },
-  "OR1609": {
-    "item_code": "OR1609",
-    "brand": "Green Hermitage",
-    "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_10.png"
-  },
-  "OR1610": {
-    "item_code": "OR1610",
-    "brand": "Green Hermitage",
-    "matched_image": "product_27.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_27.png"
-  },
-  "OR1611": {
-    "item_code": "OR1611",
-    "brand": "Green Hermitage",
-    "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_7.png"
-  },
-  "OR1614": {
-    "item_code": "OR1614",
-    "brand": "Green Hermitage",
-    "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_6.png"
-  },
-  "OR1615": {
-    "item_code": "OR1615",
-    "brand": "Green Hermitage",
-    "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_11.png"
-  },
-  "OR1616": {
-    "item_code": "OR1616",
-    "brand": "Green Hermitage",
-    "matched_image": "product_14.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_14.png"
-  },
-  "OR1617": {
-    "item_code": "OR1617",
-    "brand": "Green Hermitage",
-    "matched_image": "product_13.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_13.png"
-  },
-  "OR1618": {
-    "item_code": "OR1618",
-    "brand": "Green Hermitage",
-    "matched_image": "product_16.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_16.png"
-  },
-  "OR1620": {
-    "item_code": "OR1620",
-    "brand": "Green Hermitage",
-    "matched_image": "product_17.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_17.png"
-  },
-  "OR1621": {
-    "item_code": "OR1621",
-    "brand": "Green Hermitage",
-    "matched_image": "product_26.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_26.png"
-  },
-  "OR1627": {
-    "item_code": "OR1627",
-    "brand": "Green Hermitage",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_3.png"
-  },
-  "OR1628": {
-    "item_code": "OR1628",
-    "brand": "Green Hermitage",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_4.png"
-  },
-  "OR1629": {
-    "item_code": "OR1629",
-    "brand": "Green Hermitage",
-    "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Green Hermitage_images\\product_5.png"
+    "matched_image": "product_20.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_20.png",
+    "match_confidence": 0.5
   },
   "OR1550": {
     "item_code": "OR1550",
     "brand": "Inara Rituals",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Inara Rituals_images\\product_2.png"
+    "matched_image": "product_1.png",
+    "image_path": "ocr_extracted_data\\Inara Rituals_images\\product_1.png",
+    "match_confidence": 0.5
   },
   "OR1551": {
     "item_code": "OR1551",
     "brand": "Inara Rituals",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Inara Rituals_images\\product_1.png"
+    "matched_image": "product_2.png",
+    "image_path": "ocr_extracted_data\\Inara Rituals_images\\product_2.png",
+    "match_confidence": 0.5
   },
   "OR1552": {
     "item_code": "OR1552",
     "brand": "Inara Rituals",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Inara Rituals_images\\product_4.png"
+    "matched_image": "product_3.png",
+    "image_path": "ocr_extracted_data\\Inara Rituals_images\\product_3.png",
+    "match_confidence": 0.5
   },
   "OR1553": {
     "item_code": "OR1553",
     "brand": "Inara Rituals",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Inara Rituals_images\\product_3.png"
+    "matched_image": "product_4.png",
+    "image_path": "ocr_extracted_data\\Inara Rituals_images\\product_4.png",
+    "match_confidence": 0.5
   },
   "OR1554": {
     "item_code": "OR1554",
     "brand": "Inara Rituals",
     "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Inara Rituals_images\\product_5.png"
+    "image_path": "ocr_extracted_data\\Inara Rituals_images\\product_5.png",
+    "match_confidence": 0.5
   },
   "OR1555": {
     "item_code": "OR1555",
     "brand": "Inara Rituals",
     "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Inara Rituals_images\\product_6.png"
-  },
-  "OR1138": {
-    "item_code": "OR1138",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_4.png"
-  },
-  "OR1139": {
-    "item_code": "OR1139",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_5.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_5.png"
-  },
-  "OR1140": {
-    "item_code": "OR1140",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_6.png"
-  },
-  "OR1141": {
-    "item_code": "OR1141",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_9.png"
-  },
-  "OR1142": {
-    "item_code": "OR1142",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_7.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_7.png"
-  },
-  "OR1143": {
-    "item_code": "OR1143",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_2.png"
-  },
-  "OR1144": {
-    "item_code": "OR1144",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_8.png"
-  },
-  "OR1151": {
-    "item_code": "OR1151",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_3.png"
-  },
-  "OR1153": {
-    "item_code": "OR1153",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_14.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_14.png"
-  },
-  "OR1154": {
-    "item_code": "OR1154",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_18.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_18.png"
-  },
-  "OR1155": {
-    "item_code": "OR1155",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_19.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_19.png"
-  },
-  "OR1156": {
-    "item_code": "OR1156",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_20.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_20.png"
-  },
-  "OR1157": {
-    "item_code": "OR1157",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_21.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_21.png"
-  },
-  "OR1158": {
-    "item_code": "OR1158",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_22.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_22.png"
-  },
-  "OR1159": {
-    "item_code": "OR1159",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_24.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_24.png"
-  },
-  "OR1160": {
-    "item_code": "OR1160",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_1.png"
-  },
-  "OR1161": {
-    "item_code": "OR1161",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_12.png"
-  },
-  "OR1162": {
-    "item_code": "OR1162",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_23.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_23.png"
-  },
-  "OR1163": {
-    "item_code": "OR1163",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_25.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_25.png"
-  },
-  "OR1164": {
-    "item_code": "OR1164",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_26.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_26.png"
-  },
-  "OR1170": {
-    "item_code": "OR1170",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_11.png"
-  },
-  "OR1171": {
-    "item_code": "OR1171",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_10.png"
-  },
-  "OR1172": {
-    "item_code": "OR1172",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_15.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_15.png"
-  },
-  "OR1173": {
-    "item_code": "OR1173",
-    "brand": "Jyotir Gamaya",
-    "matched_image": "product_17.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Jyotir Gamaya_images\\product_17.png"
+    "image_path": "ocr_extracted_data\\Inara Rituals_images\\product_6.png",
+    "match_confidence": 0.5
   },
   "OR1556": {
     "item_code": "OR1556",
     "brand": "Migalo",
-    "matched_image": "product_15.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_15.png"
+    "matched_image": "product_1.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_1.png",
+    "match_confidence": 0.5
+  },
+  "OR1557": {
+    "item_code": "OR1557",
+    "brand": "Migalo",
+    "matched_image": "product_2.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_2.png",
+    "match_confidence": 0.5
   },
   "OR1558": {
     "item_code": "OR1558",
     "brand": "Migalo",
     "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_3.png"
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_3.png",
+    "match_confidence": 0.5
   },
   "OR1559": {
     "item_code": "OR1559",
     "brand": "Migalo",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_2.png"
+    "matched_image": "product_4.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_4.png",
+    "match_confidence": 0.5
   },
   "OR1560": {
     "item_code": "OR1560",
     "brand": "Migalo",
-    "matched_image": "product_13.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_13.png"
+    "matched_image": "product_5.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_5.png",
+    "match_confidence": 0.5
+  },
+  "OR1561": {
+    "item_code": "OR1561",
+    "brand": "Migalo",
+    "matched_image": "product_6.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_6.png",
+    "match_confidence": 0.5
   },
   "OR1562": {
     "item_code": "OR1562",
     "brand": "Migalo",
-    "matched_image": "product_4.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_4.png"
+    "matched_image": "product_7.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_7.png",
+    "match_confidence": 0.5
   },
   "OR1563": {
     "item_code": "OR1563",
     "brand": "Migalo",
     "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_8.png"
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_8.png",
+    "match_confidence": 0.5
   },
   "OR1564": {
     "item_code": "OR1564",
     "brand": "Migalo",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_1.png"
+    "matched_image": "product_9.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_9.png",
+    "match_confidence": 0.5
   },
   "OR1565": {
     "item_code": "OR1565",
     "brand": "Migalo",
-    "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_9.png"
+    "matched_image": "product_10.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_10.png",
+    "match_confidence": 0.5
   },
   "OR1566": {
     "item_code": "OR1566",
     "brand": "Migalo",
+    "matched_image": "product_11.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_11.png",
+    "match_confidence": 0.5
+  },
+  "OR1567": {
+    "item_code": "OR1567",
+    "brand": "Migalo",
     "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_12.png"
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_12.png",
+    "match_confidence": 0.5
+  },
+  "OR1568": {
+    "item_code": "OR1568",
+    "brand": "Migalo",
+    "matched_image": "product_13.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_13.png",
+    "match_confidence": 0.5
   },
   "OR1569": {
     "item_code": "OR1569",
     "brand": "Migalo",
     "matched_image": "product_14.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_14.png"
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_14.png",
+    "match_confidence": 0.5
   },
   "OR1570": {
     "item_code": "OR1570",
     "brand": "Migalo",
-    "matched_image": "product_16.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Migalo_images\\product_16.png"
+    "matched_image": "product_15.png",
+    "image_path": "ocr_extracted_data\\Migalo_images\\product_15.png",
+    "match_confidence": 0.5
   },
-  "OR1767": {
-    "item_code": "OR1767",
-    "brand": "Soma Naturals",
+  "OR1571": {
+    "item_code": "OR1571",
+    "brand": "Sainsisters",
+    "matched_image": "product_1.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_1.png",
+    "match_confidence": 0.5
+  },
+  "OR1572": {
+    "item_code": "OR1572",
+    "brand": "Sainsisters",
+    "matched_image": "product_2.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_2.png",
+    "match_confidence": 0.5
+  },
+  "OR1573": {
+    "item_code": "OR1573",
+    "brand": "Sainsisters",
+    "matched_image": "product_3.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_3.png",
+    "match_confidence": 0.5
+  },
+  "OR1574": {
+    "item_code": "OR1574",
+    "brand": "Sainsisters",
+    "matched_image": "product_4.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_4.png",
+    "match_confidence": 0.5
+  },
+  "OR1575": {
+    "item_code": "OR1575",
+    "brand": "Sainsisters",
+    "matched_image": "product_5.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_5.png",
+    "match_confidence": 0.5
+  },
+  "OR1576": {
+    "item_code": "OR1576",
+    "brand": "Sainsisters",
     "matched_image": "product_6.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_6.png"
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_6.png",
+    "match_confidence": 0.5
+  },
+  "OR1577": {
+    "item_code": "OR1577",
+    "brand": "Sainsisters",
+    "matched_image": "product_7.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_7.png",
+    "match_confidence": 0.5
+  },
+  "OR1578": {
+    "item_code": "OR1578",
+    "brand": "Sainsisters",
+    "matched_image": "product_8.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_8.png",
+    "match_confidence": 0.5
+  },
+  "OR1579": {
+    "item_code": "OR1579",
+    "brand": "Sainsisters",
+    "matched_image": "product_9.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_9.png",
+    "match_confidence": 0.5
+  },
+  "OR1581": {
+    "item_code": "OR1581",
+    "brand": "Sainsisters",
+    "matched_image": "product_10.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_10.png",
+    "match_confidence": 0.5
+  },
+  "OR1583": {
+    "item_code": "OR1583",
+    "brand": "Sainsisters",
+    "matched_image": "product_11.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_11.png",
+    "match_confidence": 0.5
+  },
+  "OR1584": {
+    "item_code": "OR1584",
+    "brand": "Sainsisters",
+    "matched_image": "product_12.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_12.png",
+    "match_confidence": 0.5
+  },
+  "OR1585": {
+    "item_code": "OR1585",
+    "brand": "Sainsisters",
+    "matched_image": "product_13.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_13.png",
+    "match_confidence": 0.5
+  },
+  "OR1586": {
+    "item_code": "OR1586",
+    "brand": "Sainsisters",
+    "matched_image": "product_14.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_14.png",
+    "match_confidence": 0.5
+  },
+  "OR1587": {
+    "item_code": "OR1587",
+    "brand": "Sainsisters",
+    "matched_image": "product_15.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_15.png",
+    "match_confidence": 0.5
+  },
+  "OR1588": {
+    "item_code": "OR1588",
+    "brand": "Sainsisters",
+    "matched_image": "product_16.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_16.png",
+    "match_confidence": 0.5
+  },
+  "OR1589": {
+    "item_code": "OR1589",
+    "brand": "Sainsisters",
+    "matched_image": "product_17.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_17.png",
+    "match_confidence": 0.5
+  },
+  "OR1591": {
+    "item_code": "OR1591",
+    "brand": "Sainsisters",
+    "matched_image": "product_18.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_18.png",
+    "match_confidence": 0.5
+  },
+  "OR1592": {
+    "item_code": "OR1592",
+    "brand": "Sainsisters",
+    "matched_image": "product_19.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_19.png",
+    "match_confidence": 0.5
+  },
+  "OR1595": {
+    "item_code": "OR1595",
+    "brand": "Sainsisters",
+    "matched_image": "product_20.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_20.png",
+    "match_confidence": 0.5
+  },
+  "OR1596": {
+    "item_code": "OR1596",
+    "brand": "Sainsisters",
+    "matched_image": "product_21.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_21.png",
+    "match_confidence": 0.5
+  },
+  "OR1597": {
+    "item_code": "OR1597",
+    "brand": "Sainsisters",
+    "matched_image": "product_22.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_22.png",
+    "match_confidence": 0.5
+  },
+  "OR1598": {
+    "item_code": "OR1598",
+    "brand": "Sainsisters",
+    "matched_image": "product_23.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_23.png",
+    "match_confidence": 0.5
+  },
+  "OR1599": {
+    "item_code": "OR1599",
+    "brand": "Sainsisters",
+    "matched_image": "product_24.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_24.png",
+    "match_confidence": 0.5
+  },
+  "OR1600": {
+    "item_code": "OR1600",
+    "brand": "Sainsisters",
+    "matched_image": "product_25.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_25.png",
+    "match_confidence": 0.5
+  },
+  "OR1601": {
+    "item_code": "OR1601",
+    "brand": "Sainsisters",
+    "matched_image": "product_26.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_26.png",
+    "match_confidence": 0.5
+  },
+  "OR1602": {
+    "item_code": "OR1602",
+    "brand": "Sainsisters",
+    "matched_image": "product_27.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_27.png",
+    "match_confidence": 0.5
+  },
+  "OR1603": {
+    "item_code": "OR1603",
+    "brand": "Sainsisters",
+    "matched_image": "product_28.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_28.png",
+    "match_confidence": 0.5
+  },
+  "OR1604": {
+    "item_code": "OR1604",
+    "brand": "Sainsisters",
+    "matched_image": "product_29.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_29.png",
+    "match_confidence": 0.5
+  },
+  "OR1605": {
+    "item_code": "OR1605",
+    "brand": "Sainsisters",
+    "matched_image": "product_30.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_30.png",
+    "match_confidence": 0.5
+  },
+  "OR1606": {
+    "item_code": "OR1606",
+    "brand": "Green Hermitage",
+    "matched_image": "product_1.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_1.png",
+    "match_confidence": 0.5
+  },
+  "OR1607": {
+    "item_code": "OR1607",
+    "brand": "Green Hermitage",
+    "matched_image": "product_2.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_2.png",
+    "match_confidence": 0.5
+  },
+  "OR1608": {
+    "item_code": "OR1608",
+    "brand": "Green Hermitage",
+    "matched_image": "product_3.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_3.png",
+    "match_confidence": 0.5
+  },
+  "OR1609": {
+    "item_code": "OR1609",
+    "brand": "Green Hermitage",
+    "matched_image": "product_4.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_4.png",
+    "match_confidence": 0.5
+  },
+  "OR1610": {
+    "item_code": "OR1610",
+    "brand": "Green Hermitage",
+    "matched_image": "product_5.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_5.png",
+    "match_confidence": 0.5
+  },
+  "OR1611": {
+    "item_code": "OR1611",
+    "brand": "Green Hermitage",
+    "matched_image": "product_6.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_6.png",
+    "match_confidence": 0.5
+  },
+  "OR1612": {
+    "item_code": "OR1612",
+    "brand": "Green Hermitage",
+    "matched_image": "product_7.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_7.png",
+    "match_confidence": 0.5
+  },
+  "OR1613": {
+    "item_code": "OR1613",
+    "brand": "Green Hermitage",
+    "matched_image": "product_8.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_8.png",
+    "match_confidence": 0.5
+  },
+  "OR1614": {
+    "item_code": "OR1614",
+    "brand": "Green Hermitage",
+    "matched_image": "product_9.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_9.png",
+    "match_confidence": 0.5
+  },
+  "OR1615": {
+    "item_code": "OR1615",
+    "brand": "Green Hermitage",
+    "matched_image": "product_10.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_10.png",
+    "match_confidence": 0.5
+  },
+  "OR1616": {
+    "item_code": "OR1616",
+    "brand": "Green Hermitage",
+    "matched_image": "product_11.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_11.png",
+    "match_confidence": 0.5
+  },
+  "OR1617": {
+    "item_code": "OR1617",
+    "brand": "Green Hermitage",
+    "matched_image": "product_12.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_12.png",
+    "match_confidence": 0.5
+  },
+  "OR1618": {
+    "item_code": "OR1618",
+    "brand": "Green Hermitage",
+    "matched_image": "product_13.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_13.png",
+    "match_confidence": 0.5
+  },
+  "OR1619": {
+    "item_code": "OR1619",
+    "brand": "Green Hermitage",
+    "matched_image": "product_14.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_14.png",
+    "match_confidence": 0.5
+  },
+  "OR1620": {
+    "item_code": "OR1620",
+    "brand": "Green Hermitage",
+    "matched_image": "product_15.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_15.png",
+    "match_confidence": 0.5
+  },
+  "OR1621": {
+    "item_code": "OR1621",
+    "brand": "Green Hermitage",
+    "matched_image": "product_16.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_16.png",
+    "match_confidence": 0.5
+  },
+  "OR1622": {
+    "item_code": "OR1622",
+    "brand": "Green Hermitage",
+    "matched_image": "product_17.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_17.png",
+    "match_confidence": 0.5
+  },
+  "OR1623": {
+    "item_code": "OR1623",
+    "brand": "Green Hermitage",
+    "matched_image": "product_18.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_18.png",
+    "match_confidence": 0.5
+  },
+  "OR1624": {
+    "item_code": "OR1624",
+    "brand": "Green Hermitage",
+    "matched_image": "product_19.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_19.png",
+    "match_confidence": 0.5
+  },
+  "OR1625": {
+    "item_code": "OR1625",
+    "brand": "Green Hermitage",
+    "matched_image": "product_20.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_20.png",
+    "match_confidence": 0.5
+  },
+  "OR1626": {
+    "item_code": "OR1626",
+    "brand": "Green Hermitage",
+    "matched_image": "product_21.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_21.png",
+    "match_confidence": 0.5
+  },
+  "OR1627": {
+    "item_code": "OR1627",
+    "brand": "Green Hermitage",
+    "matched_image": "product_22.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_22.png",
+    "match_confidence": 0.5
+  },
+  "OR1628": {
+    "item_code": "OR1628",
+    "brand": "Green Hermitage",
+    "matched_image": "product_23.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_23.png",
+    "match_confidence": 0.5
+  },
+  "OR1629": {
+    "item_code": "OR1629",
+    "brand": "Green Hermitage",
+    "matched_image": "product_24.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_24.png",
+    "match_confidence": 0.5
+  },
+  "OR1630": {
+    "item_code": "OR1630",
+    "brand": "Green Hermitage",
+    "matched_image": "product_25.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_25.png",
+    "match_confidence": 0.5
+  },
+  "OR1631": {
+    "item_code": "OR1631",
+    "brand": "Green Hermitage",
+    "matched_image": "product_26.png",
+    "image_path": "ocr_extracted_data\\Green Hermitage_images\\product_26.png",
+    "match_confidence": 0.5
+  },
+  "OR1632": {
+    "item_code": "OR1632",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image1.png",
+    "match_confidence": 0.5
+  },
+  "OR1633": {
+    "item_code": "OR1633",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image2.png",
+    "match_confidence": 0.5
+  },
+  "OR1634": {
+    "item_code": "OR1634",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image3.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image3.png",
+    "match_confidence": 0.5
+  },
+  "OR1635": {
+    "item_code": "OR1635",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image4.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image4.png",
+    "match_confidence": 0.5
+  },
+  "OR1636": {
+    "item_code": "OR1636",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image5.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image5.png",
+    "match_confidence": 0.5
+  },
+  "OR1637": {
+    "item_code": "OR1637",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image6.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image6.png",
+    "match_confidence": 0.5
+  },
+  "OR1638": {
+    "item_code": "OR1638",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image7.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image7.png",
+    "match_confidence": 0.5
+  },
+  "OR1639": {
+    "item_code": "OR1639",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image8.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image8.png",
+    "match_confidence": 0.5
+  },
+  "OR1641": {
+    "item_code": "OR1641",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image9.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image9.png",
+    "match_confidence": 0.5
+  },
+  "OR1643": {
+    "item_code": "OR1643",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image10.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image10.png",
+    "match_confidence": 0.5
+  },
+  "OR1644": {
+    "item_code": "OR1644",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image11.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image11.png",
+    "match_confidence": 0.5
+  },
+  "OR1646": {
+    "item_code": "OR1646",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image12.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image12.png",
+    "match_confidence": 0.5
+  },
+  "OR1647": {
+    "item_code": "OR1647",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image13.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image13.png",
+    "match_confidence": 0.5
   },
   "OR1649": {
     "item_code": "OR1649",
     "brand": "Soma Naturals",
-    "matched_image": "product_10.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_10.png"
+    "matched_image": "product_1.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_1.png",
+    "match_confidence": 0.5
   },
   "OR1650": {
     "item_code": "OR1650",
     "brand": "Soma Naturals",
-    "matched_image": "product_9.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_9.png"
+    "matched_image": "product_2.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_2.png",
+    "match_confidence": 0.5
   },
   "OR1651": {
     "item_code": "OR1651",
     "brand": "Soma Naturals",
-    "matched_image": "product_2.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_2.png"
+    "matched_image": "product_3.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_3.png",
+    "match_confidence": 0.5
   },
   "OR1652": {
     "item_code": "OR1652",
     "brand": "Soma Naturals",
-    "matched_image": "product_3.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_3.png"
+    "matched_image": "product_4.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_4.png",
+    "match_confidence": 0.5
   },
   "OR1653": {
     "item_code": "OR1653",
     "brand": "Soma Naturals",
-    "matched_image": "product_14.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_14.png"
+    "matched_image": "product_5.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_5.png",
+    "match_confidence": 0.5
+  },
+  "OR1654": {
+    "item_code": "OR1654",
+    "brand": "Soma Naturals",
+    "matched_image": "product_6.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_6.png",
+    "match_confidence": 0.5
+  },
+  "OR1655": {
+    "item_code": "OR1655",
+    "brand": "Soma Naturals",
+    "matched_image": "product_7.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_7.png",
+    "match_confidence": 0.5
   },
   "OR1656": {
     "item_code": "OR1656",
     "brand": "Soma Naturals",
-    "matched_image": "product_19.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_19.png"
+    "matched_image": "product_8.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_8.png",
+    "match_confidence": 0.5
+  },
+  "OR1657": {
+    "item_code": "OR1657",
+    "brand": "Soma Naturals",
+    "matched_image": "product_9.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_9.png",
+    "match_confidence": 0.5
+  },
+  "OR1658": {
+    "item_code": "OR1658",
+    "brand": "Soma Naturals",
+    "matched_image": "product_10.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_10.png",
+    "match_confidence": 0.5
+  },
+  "OR1659": {
+    "item_code": "OR1659",
+    "brand": "Soma Naturals",
+    "matched_image": "product_11.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_11.png",
+    "match_confidence": 0.5
   },
   "OR1660": {
     "item_code": "OR1660",
     "brand": "Soma Naturals",
     "matched_image": "product_12.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_12.png"
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_12.png",
+    "match_confidence": 0.5
   },
   "OR1661": {
     "item_code": "OR1661",
     "brand": "Soma Naturals",
-    "matched_image": "product_18.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_18.png"
+    "matched_image": "product_13.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_13.png",
+    "match_confidence": 0.5
   },
   "OR1662": {
     "item_code": "OR1662",
     "brand": "Soma Naturals",
-    "matched_image": "product_1.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_1.png"
+    "matched_image": "product_14.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_14.png",
+    "match_confidence": 0.5
+  },
+  "OR1663": {
+    "item_code": "OR1663",
+    "brand": "Soma Naturals",
+    "matched_image": "product_15.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_15.png",
+    "match_confidence": 0.5
   },
   "OR1664": {
     "item_code": "OR1664",
     "brand": "Soma Naturals",
-    "matched_image": "product_8.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_8.png"
+    "matched_image": "product_16.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_16.png",
+    "match_confidence": 0.5
   },
   "OR1665": {
     "item_code": "OR1665",
     "brand": "Soma Naturals",
-    "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Soma Naturals_images\\product_11.png"
+    "matched_image": "product_17.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_17.png",
+    "match_confidence": 0.5
   },
-  "OR1034": {
-    "item_code": "OR1034",
-    "brand": "Tiramisu",
-    "matched_image": "product_44.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Tiramisu_images\\product_44.png"
+  "OR1666": {
+    "item_code": "OR1666",
+    "brand": "Munn Home",
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image1.png",
+    "match_confidence": 0.5
   },
-  "OR1036": {
-    "item_code": "OR1036",
-    "brand": "Tiramisu",
-    "matched_image": "product_15.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Tiramisu_images\\product_15.png"
+  "OR1667": {
+    "item_code": "OR1667",
+    "brand": "Munn Home",
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image2.png",
+    "match_confidence": 0.5
   },
-  "OR1037": {
-    "item_code": "OR1037",
-    "brand": "Tiramisu",
-    "matched_image": "product_13.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Tiramisu_images\\product_13.png"
+  "OR1668": {
+    "item_code": "OR1668",
+    "brand": "Munn Home",
+    "matched_image": "image3.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image3.png",
+    "match_confidence": 0.5
   },
-  "OR1039": {
-    "item_code": "OR1039",
-    "brand": "Tiramisu",
-    "matched_image": "product_42.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Tiramisu_images\\product_42.png"
+  "OR1669": {
+    "item_code": "OR1669",
+    "brand": "Munn Home",
+    "matched_image": "image4.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image4.png",
+    "match_confidence": 0.5
   },
-  "OR1046": {
-    "item_code": "OR1046",
-    "brand": "Tiramisu",
-    "matched_image": "product_34.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Tiramisu_images\\product_34.png"
+  "OR1670": {
+    "item_code": "OR1670",
+    "brand": "Munn Home",
+    "matched_image": "image5.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image5.png",
+    "match_confidence": 0.5
   },
-  "OR1052": {
-    "item_code": "OR1052",
-    "brand": "Tiramisu",
-    "matched_image": "product_16.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Tiramisu_images\\product_16.png"
+  "OR1671": {
+    "item_code": "OR1671",
+    "brand": "Munn Home",
+    "matched_image": "image6.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image6.png",
+    "match_confidence": 0.5
   },
-  "OR1059": {
-    "item_code": "OR1059",
-    "brand": "Tiramisu",
+  "OR1672": {
+    "item_code": "OR1672",
+    "brand": "Munn Home",
+    "matched_image": "image7.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image7.png",
+    "match_confidence": 0.5
+  },
+  "OR1673": {
+    "item_code": "OR1673",
+    "brand": "Munn Home",
+    "matched_image": "image8.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image8.png",
+    "match_confidence": 0.5
+  },
+  "OR1674": {
+    "item_code": "OR1674",
+    "brand": "Munn Home",
+    "matched_image": "image9.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image9.png",
+    "match_confidence": 0.5
+  },
+  "OR1675": {
+    "item_code": "OR1675",
+    "brand": "Munn Home",
+    "matched_image": "image10.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image10.png",
+    "match_confidence": 0.5
+  },
+  "OR1676": {
+    "item_code": "OR1676",
+    "brand": "Munn Home",
+    "matched_image": "image11.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image11.png",
+    "match_confidence": 0.5
+  },
+  "OR1677": {
+    "item_code": "OR1677",
+    "brand": "Munn Home",
+    "matched_image": "image12.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image12.png",
+    "match_confidence": 0.5
+  },
+  "OR1678": {
+    "item_code": "OR1678",
+    "brand": "Munn Home",
+    "matched_image": "image13.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image13.png",
+    "match_confidence": 0.5
+  },
+  "OR1679": {
+    "item_code": "OR1679",
+    "brand": "Munn Home",
+    "matched_image": "image14.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image14.png",
+    "match_confidence": 0.5
+  },
+  "OR1680": {
+    "item_code": "OR1680",
+    "brand": "Munn Home",
+    "matched_image": "image15.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image15.png",
+    "match_confidence": 0.5
+  },
+  "OR1681": {
+    "item_code": "OR1681",
+    "brand": "Munn Home",
+    "matched_image": "image16.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image16.png",
+    "match_confidence": 0.5
+  },
+  "OR1682": {
+    "item_code": "OR1682",
+    "brand": "Munn Home",
+    "matched_image": "image17.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Munn Home\\image17.png",
+    "match_confidence": 0.5
+  },
+  "OR1683": {
+    "item_code": "OR1683",
+    "brand": "Ekatra",
+    "matched_image": "product_21.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_21.png",
+    "match_confidence": 0.5
+  },
+  "OR1684": {
+    "item_code": "OR1684",
+    "brand": "Ekatra",
     "matched_image": "product_22.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Tiramisu_images\\product_22.png"
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_22.png",
+    "match_confidence": 0.5
   },
-  "OR1077": {
-    "item_code": "OR1077",
-    "brand": "Tiramisu",
-    "matched_image": "product_11.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Tiramisu_images\\product_11.png"
+  "OR1685": {
+    "item_code": "OR1685",
+    "brand": "Ekatra",
+    "matched_image": "product_23.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_23.png",
+    "match_confidence": 0.5
   },
-  "OR1078": {
-    "item_code": "OR1078",
-    "brand": "Tiramisu",
-    "matched_image": "product_20.png",
-    "image_path": "ocr_matched_output_v2\\New folder\\Tiramisu_images\\product_20.png"
+  "OR1686": {
+    "item_code": "OR1686",
+    "brand": "Ekatra",
+    "matched_image": "product_24.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_24.png",
+    "match_confidence": 0.5
+  },
+  "OR1687": {
+    "item_code": "OR1687",
+    "brand": "Ekatra",
+    "matched_image": "product_25.png",
+    "image_path": "ocr_extracted_data\\Ekatra_images\\product_25.png",
+    "match_confidence": 0.5
+  },
+  "OR1688": {
+    "item_code": "OR1688",
+    "brand": "NAAVA",
+    "matched_image": "image1.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image1.png",
+    "match_confidence": 0.5
+  },
+  "OR1689": {
+    "item_code": "OR1689",
+    "brand": "NAAVA",
+    "matched_image": "image2.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image2.png",
+    "match_confidence": 0.5
+  },
+  "OR1690": {
+    "item_code": "OR1690",
+    "brand": "NAAVA",
+    "matched_image": "image3.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image3.png",
+    "match_confidence": 0.5
+  },
+  "OR1691": {
+    "item_code": "OR1691",
+    "brand": "NAAVA",
+    "matched_image": "image4.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image4.png",
+    "match_confidence": 0.5
+  },
+  "OR1692": {
+    "item_code": "OR1692",
+    "brand": "NAAVA",
+    "matched_image": "image5.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image5.png",
+    "match_confidence": 0.5
+  },
+  "OR1693": {
+    "item_code": "OR1693",
+    "brand": "NAAVA",
+    "matched_image": "image6.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image6.png",
+    "match_confidence": 0.5
+  },
+  "OR1694": {
+    "item_code": "OR1694",
+    "brand": "NAAVA",
+    "matched_image": "image7.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image7.png",
+    "match_confidence": 0.5
+  },
+  "OR1695": {
+    "item_code": "OR1695",
+    "brand": "NAAVA",
+    "matched_image": "image8.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image8.png",
+    "match_confidence": 0.5
+  },
+  "OR1696": {
+    "item_code": "OR1696",
+    "brand": "NAAVA",
+    "matched_image": "image9.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image9.png",
+    "match_confidence": 0.5
+  },
+  "OR1697": {
+    "item_code": "OR1697",
+    "brand": "NAAVA",
+    "matched_image": "image10.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image10.png",
+    "match_confidence": 0.5
+  },
+  "OR1698": {
+    "item_code": "OR1698",
+    "brand": "NAAVA",
+    "matched_image": "image11.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image11.png",
+    "match_confidence": 0.5
+  },
+  "OR1699": {
+    "item_code": "OR1699",
+    "brand": "NAAVA",
+    "matched_image": "image12.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image12.png",
+    "match_confidence": 0.5
+  },
+  "OR1700": {
+    "item_code": "OR1700",
+    "brand": "NAAVA",
+    "matched_image": "image13.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image13.png",
+    "match_confidence": 0.5
+  },
+  "OR1701": {
+    "item_code": "OR1701",
+    "brand": "NAAVA",
+    "matched_image": "image14.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image14.png",
+    "match_confidence": 0.5
+  },
+  "OR1702": {
+    "item_code": "OR1702",
+    "brand": "NAAVA",
+    "matched_image": "image15.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image15.png",
+    "match_confidence": 0.5
+  },
+  "OR1703": {
+    "item_code": "OR1703",
+    "brand": "NAAVA",
+    "matched_image": "image16.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image16.png",
+    "match_confidence": 0.5
+  },
+  "OR1704": {
+    "item_code": "OR1704",
+    "brand": "NAAVA",
+    "matched_image": "image17.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image17.png",
+    "match_confidence": 0.5
+  },
+  "OR1705": {
+    "item_code": "OR1705",
+    "brand": "NAAVA",
+    "matched_image": "image18.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image18.png",
+    "match_confidence": 0.5
+  },
+  "OR1706": {
+    "item_code": "OR1706",
+    "brand": "NAAVA",
+    "matched_image": "image19.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image19.png",
+    "match_confidence": 0.5
+  },
+  "OR1707": {
+    "item_code": "OR1707",
+    "brand": "NAAVA",
+    "matched_image": "image20.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image20.png",
+    "match_confidence": 0.5
+  },
+  "OR1708": {
+    "item_code": "OR1708",
+    "brand": "NAAVA",
+    "matched_image": "image21.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image21.png",
+    "match_confidence": 0.5
+  },
+  "OR1709": {
+    "item_code": "OR1709",
+    "brand": "NAAVA",
+    "matched_image": "image22.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image22.png",
+    "match_confidence": 0.5
+  },
+  "OR1710": {
+    "item_code": "OR1710",
+    "brand": "NAAVA",
+    "matched_image": "image23.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image23.png",
+    "match_confidence": 0.5
+  },
+  "OR1711": {
+    "item_code": "OR1711",
+    "brand": "NAAVA",
+    "matched_image": "image24.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image24.png",
+    "match_confidence": 0.5
+  },
+  "OR1712": {
+    "item_code": "OR1712",
+    "brand": "NAAVA",
+    "matched_image": "image25.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image25.png",
+    "match_confidence": 0.5
+  },
+  "OR1713": {
+    "item_code": "OR1713",
+    "brand": "NAAVA",
+    "matched_image": "image26.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image26.png",
+    "match_confidence": 0.5
+  },
+  "OR1714": {
+    "item_code": "OR1714",
+    "brand": "NAAVA",
+    "matched_image": "image27.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image27.png",
+    "match_confidence": 0.5
+  },
+  "OR1715": {
+    "item_code": "OR1715",
+    "brand": "NAAVA",
+    "matched_image": "image28.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image28.png",
+    "match_confidence": 0.5
+  },
+  "OR1716": {
+    "item_code": "OR1716",
+    "brand": "NAAVA",
+    "matched_image": "image29.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image29.png",
+    "match_confidence": 0.5
+  },
+  "OR1717": {
+    "item_code": "OR1717",
+    "brand": "NAAVA",
+    "matched_image": "image30.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image30.png",
+    "match_confidence": 0.5
+  },
+  "OR1718": {
+    "item_code": "OR1718",
+    "brand": "NAAVA",
+    "matched_image": "image31.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image31.png",
+    "match_confidence": 0.5
+  },
+  "OR1719": {
+    "item_code": "OR1719",
+    "brand": "NAAVA",
+    "matched_image": "image32.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image32.png",
+    "match_confidence": 0.5
+  },
+  "OR1720": {
+    "item_code": "OR1720",
+    "brand": "NAAVA",
+    "matched_image": "image33.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image33.png",
+    "match_confidence": 0.5
+  },
+  "OR1721": {
+    "item_code": "OR1721",
+    "brand": "NAAVA",
+    "matched_image": "image34.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image34.png",
+    "match_confidence": 0.5
+  },
+  "OR1722": {
+    "item_code": "OR1722",
+    "brand": "NAAVA",
+    "matched_image": "image35.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image35.png",
+    "match_confidence": 0.5
+  },
+  "OR1723": {
+    "item_code": "OR1723",
+    "brand": "NAAVA",
+    "matched_image": "image36.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image36.png",
+    "match_confidence": 0.5
+  },
+  "OR1724": {
+    "item_code": "OR1724",
+    "brand": "NAAVA",
+    "matched_image": "image37.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image37.png",
+    "match_confidence": 0.5
+  },
+  "OR1725": {
+    "item_code": "OR1725",
+    "brand": "NAAVA",
+    "matched_image": "image38.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image38.png",
+    "match_confidence": 0.5
+  },
+  "OR1726": {
+    "item_code": "OR1726",
+    "brand": "NAAVA",
+    "matched_image": "image39.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image39.png",
+    "match_confidence": 0.5
+  },
+  "OR1727": {
+    "item_code": "OR1727",
+    "brand": "NAAVA",
+    "matched_image": "image40.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image40.png",
+    "match_confidence": 0.5
+  },
+  "OR1728": {
+    "item_code": "OR1728",
+    "brand": "NAAVA",
+    "matched_image": "image41.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image41.png",
+    "match_confidence": 0.5
+  },
+  "OR1729": {
+    "item_code": "OR1729",
+    "brand": "NAAVA",
+    "matched_image": "image42.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image42.png",
+    "match_confidence": 0.5
+  },
+  "OR1730": {
+    "item_code": "OR1730",
+    "brand": "NAAVA",
+    "matched_image": "image43.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image43.png",
+    "match_confidence": 0.5
+  },
+  "OR1731": {
+    "item_code": "OR1731",
+    "brand": "NAAVA",
+    "matched_image": "image44.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image44.png",
+    "match_confidence": 0.5
+  },
+  "OR1732": {
+    "item_code": "OR1732",
+    "brand": "NAAVA",
+    "matched_image": "image45.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image45.png",
+    "match_confidence": 0.5
+  },
+  "OR1733": {
+    "item_code": "OR1733",
+    "brand": "NAAVA",
+    "matched_image": "image46.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image46.png",
+    "match_confidence": 0.5
+  },
+  "OR1734": {
+    "item_code": "OR1734",
+    "brand": "NAAVA",
+    "matched_image": "image47.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\NAAVA X TOSCEE.xlsx\\image47.png",
+    "match_confidence": 0.5
+  },
+  "OR1765": {
+    "item_code": "OR1765",
+    "brand": "Sainsisters",
+    "matched_image": "product_31.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_31.png",
+    "match_confidence": 0.5
+  },
+  "OR1766": {
+    "item_code": "OR1766",
+    "brand": "Sainsisters",
+    "matched_image": "product_32.png",
+    "image_path": "ocr_extracted_data\\Sainsisters_images\\product_32.png",
+    "match_confidence": 0.5
+  },
+  "OR1767": {
+    "item_code": "OR1767",
+    "brand": "Soma Naturals",
+    "matched_image": "product_18.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_18.png",
+    "match_confidence": 0.5
+  },
+  "OR1768": {
+    "item_code": "OR1768",
+    "brand": "Soma Naturals",
+    "matched_image": "product_19.png",
+    "image_path": "ocr_extracted_data\\Soma Naturals_images\\product_19.png",
+    "match_confidence": 0.5
+  },
+  "OR1769": {
+    "item_code": "OR1769",
+    "brand": "Aranya Earthcraft",
+    "matched_image": "image14.png",
+    "image_path": "ocr_matched_output_v2/extracted_images\\Aranya Earthcraft\\image14.png",
+    "match_confidence": 0.5
   }
 }
