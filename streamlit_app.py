@@ -89,15 +89,16 @@ def resolve_image_path(product):
     brand = product.get("brand", "")
     item_code = product.get("item_code", "")
     
-    # Build possible paths
+    # Build possible paths - prioritize ocr_matched_output_v2
     possible_paths = []
     
-    # Try direct brand folder
+    # Try OCR matched output v2 first (user specified this folder)
+    if brand:
+        possible_paths.append(f"ocr_matched_output_v2/{brand}/{image_file}")
+    
+    # Try extracted_images with brand name variations
     if brand:
         possible_paths.append(f"extracted_images/{brand}/{image_file}")
-    
-    # Try with " x Toscee.xlsx" variations
-    if brand:
         possible_paths.append(f"extracted_images/{brand} x Toscee .xlsx/{image_file}")
         possible_paths.append(f"extracted_images/{brand} x Toscee.xlsx/{image_file}")
         possible_paths.append(f"extracted_images/{brand.upper()} x TOSCEE.xlsx/{image_file}")
@@ -112,14 +113,14 @@ def resolve_image_path(product):
     
     # Try item code based search in all brand folders
     if item_code:
-        extracted_path = "extracted_images"
-        if os.path.exists(extracted_path):
-            for folder in os.listdir(extracted_path):
-                folder_path = os.path.join(extracted_path, folder)
-                if os.path.isdir(folder_path):
-                    possible_paths.append(f"{folder_path}/{image_file}")
-                    possible_paths.append(f"{folder_path}/{item_code}.png")
-                    possible_paths.append(f"{folder_path}/{item_code}.jpg")
+        for base_path in ["ocr_matched_output_v2", "extracted_images"]:
+            if os.path.exists(base_path):
+                for folder in os.listdir(base_path):
+                    folder_path = os.path.join(base_path, folder)
+                    if os.path.isdir(folder_path):
+                        possible_paths.append(f"{folder_path}/{image_file}")
+                        possible_paths.append(f"{folder_path}/{item_code}.png")
+                        possible_paths.append(f"{folder_path}/{item_code}.jpg")
     
     # Check each path
     for path in possible_paths:
