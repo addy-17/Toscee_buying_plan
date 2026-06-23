@@ -107,6 +107,17 @@ def resolve_image_path(product):
     item_code = product.get("item_code", "")
     brand = product.get("brand", "")
     
+    # Debug logging
+    if item_code:
+        has_mapping = item_code in st.session_state.get("image_map", {})
+        if not has_mapping:
+            # Only log first few missing mappings to avoid spam
+            if not hasattr(resolve_image_path, 'missing_count'):
+                resolve_image_path.missing_count = 0
+            if resolve_image_path.missing_count < 3:
+                print(f"DEBUG: No mapping for item_code: {item_code} (brand: {brand})")
+                resolve_image_path.missing_count += 1
+    
     # First try to get image from the pre-loaded mapping
     if item_code and item_code in st.session_state.get("image_map", {}):
         image_path = st.session_state.image_map[item_code]
@@ -180,15 +191,15 @@ def render_product_card(product, idx):
             
             if inv_item:
                 # Use Inventory.xlsx data
-                item_name = inv_item.get("Item Name", product.get("product_name", "N/A"))
+                item_name = inv_item.get("Item Name", "N/A")
                 brand = inv_item.get("Category 1", product.get("brand", "N/A"))
                 dept = inv_item.get("Department", product.get("department", "N/A"))
                 mrp = inv_item.get("MRP", product.get("mrp", "N/A"))
                 division = inv_item.get("Division", "")
                 section = inv_item.get("Section ", "")
             else:
-                # Fallback to JSON data
-                item_name = product.get("product_name", "N/A")
+                # Fallback to JSON data - use item_name not product_name
+                item_name = product.get("item_name", product.get("product_name", "N/A"))
                 brand = product.get("brand", "N/A")
                 dept = product.get("department", "N/A")
                 mrp = product.get("mrp", "N/A")
