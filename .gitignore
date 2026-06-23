@@ -25,6 +25,7 @@ Thumbs.db
 
 # Large Excel & Image folders
 *.xlsx
+!Toscee_buying_plan.xlsx
 Images/
 extracted_images/
 
