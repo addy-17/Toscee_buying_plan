@@ -55,6 +55,9 @@ if "image_map" not in st.session_state:
     # Load image mapping from pre-generated JSON
     st.session_state.image_map = {}
     mapping_file = "image_mappings.json"
+    print(f"Looking for image mapping file: {mapping_file}")
+    print(f"Current directory: {os.getcwd()}")
+    print(f"File exists: {os.path.exists(mapping_file)}")
     if os.path.exists(mapping_file):
         try:
             with open(mapping_file, "r", encoding="utf-8") as f:
@@ -62,9 +65,14 @@ if "image_map" not in st.session_state:
                 for item_code, data in mappings.items():
                     if "image_path" in data:
                         st.session_state.image_map[item_code] = data["image_path"]
-            print(f"Loaded {len(st.session_state.image_map)} image mappings from {mapping_file}")
+            print(f"✓ Loaded {len(st.session_state.image_map)} image mappings from {mapping_file}")
+            # Show a few samples
+            for i, (k, v) in enumerate(list(st.session_state.image_map.items())[:3]):
+                print(f"  Sample: {k} -> {v}")
         except Exception as e:
             print(f"Error loading image mappings: {e}")
+            import traceback
+            traceback.print_exc()
 if "selected_items" not in st.session_state:
     st.session_state.selected_items = []
 if "scrape_results" not in st.session_state:
@@ -97,6 +105,7 @@ def get_item_from_inventory(item_code):
 def resolve_image_path(product):
     """Resolve image path from product data."""
     item_code = product.get("item_code", "")
+    brand = product.get("brand", "")
     
     # First try to get image from the pre-loaded mapping
     if item_code and item_code in st.session_state.get("image_map", {}):
