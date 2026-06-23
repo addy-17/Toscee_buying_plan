@@ -9,6 +9,7 @@ import json
 import io
 import os
 import sys
+import pandas as pd
 
 # Add parent directory to path for imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -44,6 +45,12 @@ st.markdown("""
 # --- Session State ---
 if "inventory_data" not in st.session_state:
     st.session_state.inventory_data = load_inventory()
+if "inventory_df" not in st.session_state:
+    try:
+        st.session_state.inventory_df = pd.read_excel("Inventory.xlsx")
+        st.session_state.inventory_df.columns = [c.strip() for c in st.session_state.inventory_df.columns]
+    except:
+        st.session_state.inventory_df = None
 if "selected_items" not in st.session_state:
     st.session_state.selected_items = []
 if "scrape_results" not in st.session_state:
@@ -62,6 +69,65 @@ def get_category_for_product(product):
             return subcat_name
     return "Other"
 
+def get_item_from_inventory(item_code):
+    """Get item details from Inventory.xlsx by item code."""
+    df = st.session_state.get("inventory_df")
+    if df is None or "Item Code " not in df.columns:
+        return None
+    item_code_clean = str(item_code).strip()
+    match = df[df["Item Code "].astype(str).str.strip() == item_code_clean]
+    if not match.empty:
+        return match.iloc[0].to_dict()
+    return None
+
+def resolve_image_path(product):
+    """Resolve image path from product data."""
+    image_file = product.get("image_file", "")
+    if not image_file or image_file in ["", "nan", "NaN"]:
+        return None
+    
+    brand = product.get("brand", "")
+    item_code = product.get("item_code", "")
+    
+    # Build possible paths
+    possible_paths = []
+    
+    # Try direct brand folder
+    if brand:
+        possible_paths.append(f"extracted_images/{brand}/{image_file}")
+    
+    # Try with " x Toscee.xlsx" variations
+    if brand:
+        possible_paths.append(f"extracted_images/{brand} x Toscee .xlsx/{image_file}")
+        possible_paths.append(f"extracted_images/{brand} x Toscee.xlsx/{image_file}")
+        possible_paths.append(f"extracted_images/{brand.upper()} x TOSCEE.xlsx/{image_file}")
+    
+    # Try OCR extracted data
+    if brand:
+        possible_paths.append(f"ocr_extracted_data/{brand}_images/{image_file}")
+    
+    # Try Images folder
+    if brand:
+        possible_paths.append(f"Images/{brand} x Toscee.xlsx/{image_file}")
+    
+    # Try item code based search in all brand folders
+    if item_code:
+        extracted_path = "extracted_images"
+        if os.path.exists(extracted_path):
+            for folder in os.listdir(extracted_path):
+                folder_path = os.path.join(extracted_path, folder)
+                if os.path.isdir(folder_path):
+                    possible_paths.append(f"{folder_path}/{image_file}")
+                    possible_paths.append(f"{folder_path}/{item_code}.png")
+                    possible_paths.append(f"{folder_path}/{item_code}.jpg")
+    
+    # Check each path
+    for path in possible_paths:
+        if os.path.exists(path):
+            return path
+    
+    return None
+
 def render_product_card(product, idx):
     """Render a product selection card."""
     with st.container():
@@ -71,24 +137,16 @@ def render_product_card(product, idx):
         with col_img:
             # Try multiple image sources
             image_displayed = False
-            
-            # First try image_file from local extracted_images folder
             image_file = product.get("image_file", "")
-            if image_file and image_file not in ["", "nan", "NaN"]:
-                brand = product.get("brand", "")
-                # Try different possible paths
-                possible_paths = [
-                    f"extracted_images/{brand}/{image_file}",
-                    f"Images/{brand} x Toscee.xlsx/{image_file}",
-                    f"ocr_extracted_data/{brand}_images/{image_file}",
-                ]
-                for img_path in possible_paths:
-                    try:
-                        st.image(img_path, width=250, use_container_width=True)
-                        image_displayed = True
-                        break
-                    except:
-                        continue
+            
+            # Use new resolve_image_path function
+            img_path = resolve_image_path(product)
+            if img_path:
+                try:
+                    st.image(img_path, width=250, use_container_width=True)
+                    image_displayed = True
+                except:
+                    pass
             
             # Fallback to image_url if available
             if not image_displayed and product.get("image_url"):
@@ -108,13 +166,35 @@ def render_product_card(product, idx):
                 )
         
         with col_info:
-            st.write(f"**{product.get('product_name', 'N/A')}**")
-            st.write(f"**Brand:** {product.get('brand', 'N/A')}")
-            st.write(f"**Dept:** {product.get('department', 'N/A')}")
-            mrp = product.get("mrp", "N/A")
+            # Try to get better item name from Inventory.xlsx
+            item_code = product.get("item_code", "")
+            inv_item = get_item_from_inventory(item_code) if item_code else None
+            
+            if inv_item:
+                # Use Inventory.xlsx data
+                item_name = inv_item.get("Item Name", product.get("product_name", "N/A"))
+                brand = inv_item.get("Category 1", product.get("brand", "N/A"))
+                dept = inv_item.get("Department", product.get("department", "N/A"))
+                mrp = inv_item.get("MRP", product.get("mrp", "N/A"))
+                division = inv_item.get("Division", "")
+                section = inv_item.get("Section ", "")
+            else:
+                # Fallback to JSON data
+                item_name = product.get("product_name", "N/A")
+                brand = product.get("brand", "N/A")
+                dept = product.get("department", "N/A")
+                mrp = product.get("mrp", "N/A")
+                division = product.get("division", "")
+                section = product.get("section", "")
+            
+            st.write(f"**{item_name}**")
+            st.write(f"**Brand:** {brand}")
+            if division or section:
+                st.write(f"**Category:** {division} > {section}" if division else f"**Section:** {section}")
+            st.write(f"**Dept:** {dept}")
             st.write(f"**MRP:** ₹{mrp}" if mrp != "N/A" else f"**MRP:** {mrp}")
             subcat = get_category_for_product(product)
-            st.write(f"**Category:** {subcat}")
+            st.write(f"**Type:** {subcat}")
             if image_file and image_file not in ["", "nan", "NaN"]:
                 st.caption(f"📁 {image_file}")
         
